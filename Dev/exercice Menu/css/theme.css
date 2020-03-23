@@ -1,0 +1,70 @@
+/*theme*/
+:root {
+  --color-default: #bdc3c7;
+  --color-primary: #3498db;
+  --color-event: #d35400;
+}
+nav > ul {
+  width: auto;
+  
+}
+nav > ul > li {
+  display: inline-block;
+  line-height: 5.5rem;
+  background: #ccc;
+  width: calc(50% / 4); /*TODO A revoir le calc()*/
+  text-align: center;
+  
+}
+nav > ul > li a {
+  /*pour que a prenne tout l'espace de li pour cliquer*/
+  display: block;
+  width: 100%;
+  border-bottom: solid 0.4rem transparent;
+  transition-duration: 0.5s;
+  text-transform: capitalize;
+  
+}
+nav > ul > li a:hover {
+  border-bottom: solid 0.4rem var(--color-primary);
+  background: #222;
+  color: #fff;
+}
+
+header h1 {
+  line-height: 6.5rem;
+  max-width: 40rem;
+  margin: 4rem auto; /**pour centrer**/
+  text-align: center;
+}
+/*figure*/
+main figure {
+  border: solid 1px var(--color-default);
+  max-width: 40rem;
+  margin: 0 auto;
+  display: none;
+}
+main figure img {
+  display: block;
+  width: 100%;
+}
+main figure figcaption{
+    padding: 0 0.8rem;
+}
+main figure figcaption a {
+    display: inline-block;
+  color: var(--color-event);
+}
+main figure figcaption > h2{
+    line-height: 4.5rem;
+    text-align: center;
+    padding: 1.0rem 0;
+}
+main figure figcaption > p{
+    line-height: 2.5rem;
+    padding: 1.0rem 0;
+}
+/*pour les ancres*/
+.appear:target{
+    display: block;
+}

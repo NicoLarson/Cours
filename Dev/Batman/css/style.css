@@ -1,0 +1,91 @@
+/*reset*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin:0;
+}
+h1,h2,h3,ul,p{
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;/* selecteur propriété valeur */
+    list-style-type: none;
+
+}
+details,summary{
+    outline: none;
+}
+/* theme */
+:root{
+    /*initialiser la css*/
+    --color-header:#222;
+    --color-shadow: #333;
+}
+
+header{
+    background-color: var(--color-header);
+    margin-bottom: 5.0rem;
+}
+header > h1{
+    color: #fff;
+    text-align: center;
+    line-height: 6.0rem;/* 60px */
+}
+article,footer{
+    max-width: 70rem;
+    margin: 0 auto;
+    border: solid 0.1rem transparent;
+}
+footer{
+    margin-top: 2.0rem;
+    text-align: center;
+}
+article{
+    box-shadow: 0 0 2.0rem var(--color-shadow);
+}
+article > img{
+    display: block;
+    max-width: 100%;
+}
+article ul > li, article h2{
+    padding:0.5rem; /* 5px */
+    line-height: 2.5rem;
+}
+article ul > li:nth-child(2n+2){
+    background-color: rgba(189, 195, 199,0.2);
+}
+details p{
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+summary::-webkit-details-marker{
+    display: none;
+}
+summary{
+    list-style: none;/*firefox*/
+}
+summary::before{
+    content: "+";
+    color: #222;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: -5px 5px 0 0;
+    text-align: center;
+    width: 20px;
+}
+header h1::before{
+    content:'\f008';/*unicode*/
+    font-family:"Font Awesome 5 free";
+    color: #fff;
+    margin-right: 0.5rem;
+}
+@media (max-width: 1024px){ /*media responsive */
+    article,footer{
+        width: auto;   
+    }   
+    header > h1{
+        display: 3.5vw;
+    }
+}

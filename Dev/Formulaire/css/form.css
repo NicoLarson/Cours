@@ -1,0 +1,47 @@
+header{
+    line-height: 6.0rem;
+    text-align: center;
+}
+header h1{
+    color: #222;
+}
+section{
+    max-width: 70rem;
+    padding: 1.0rem;
+    margin: 5.0rem auto 0;
+}
+section form input, section form label{
+    display: block;
+    width: 100%; /*agrandir le type*/
+    margin-bottom: 0.5rem;
+}
+section form input{
+    border: solid 0.1rem #ccc;
+    line-height: 3.0rem;
+    padding: 0.2rem;
+    outline: none;/*enlever l'encadrement*/
+    transition-duration: 0.8s;
+}
+[placeholder]{
+    color: #222;
+    /* font-size: 1.5rem; */
+}
+[placeholder]:focus{
+    /* font-size: 1.5rem; */
+    padding-left: 2.0rem;
+}
+section form input:focus{
+    box-shadow: 0 0 0.8rem #c0392b;
+}
+section form input[type="submit"]{
+    background-color: #27ae60;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+form label > span{
+    color:#e74c3c;
+    margin-right: 0.1rem;
+}

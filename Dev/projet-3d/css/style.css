@@ -1,0 +1,134 @@
+/*reset css*/
+html {
+  background: #2222 url(../assets/fond_flou.jpg) no-repeat fixed center center /
+    cover;
+  font-size: 62.5%;
+}
+body {
+  font: 1.6rem sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 100;
+}
+
+/* theme cube */
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header h1 {
+  text-align: center;
+  color: #fff;
+  line-height: 6rem;
+}
+.wrap {
+  perspective: 800px; /*contexte de la perspective*/
+  perspective-origin: 50% 100px; /*position du cube*/
+}
+.cube {
+  position: relative;
+  z-index: 1;
+  width: 200px;
+  transform-style: preserve-3d; /*S'ils sont aplanis, les éléments-fils 
+                                        n'auront pas d'espace tridimensionnel propre.*/
+  margin: 10rem auto;
+}
+
+.cube section {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  opacity: 0.9;
+  box-shadow: 0 0 10px #222;
+}
+section img {
+  display: block;
+  width: 100%;
+}
+.back {
+  transform: translateZ(-100px) rotateY(180deg) scale(1);
+  background: #e1bee7;
+  transition-duration: 0.5s;
+}
+.right {
+  transform: rotateY(-270deg) translateX(100px) scale(1);
+  transform-origin: top right;
+  background: #ce93d8;
+  transition-duration: 0.5s;
+}
+.left {
+  transform: rotateY(270deg) translateX(-100px) scale(1);
+  transform-origin: center left;
+  background: #ba68c8;
+  transition-duration: 0.5s;
+}
+.top {
+  transform: rotateX(-90deg) translateY(-100px);
+  transform-origin: top center;
+  background: #ba68c8;
+}
+.bottom {
+  transform: rotateX(90deg) translateY(100px);
+  transform-origin: bottom center;
+}
+.front {
+  transform: translateZ(100px) scale(1);
+  background: #ab47bc;
+  transition-duration: 0.5s;
+}
+
+/*animation du cube*/
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.cube {
+  animation: spin 9s infinite linear;
+}
+/* partie survol */
+/*.cube:hover {
+  animation-play-state: paused;
+  cursor: pointer; arrete l'animation
+}
+*/
+.front:hover {
+  transform: translateZ(125px) scale(1.5) rotate(360deg);
+  opacity: 1;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.left:hover {
+  transform: rotateY(270deg) translateX(50px) translateX(-100px) scale(1.5);
+  transform-origin: center left;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.right:hover {
+  transform: rotateY(-270deg) translateX(100px) translateX(50px) scale(1.5);
+  transform-origin: top right;
+  background: #ab47bc;
+  opacity: 1;
+  cursor: pointer;
+}
+.back:hover {
+  transform: translateZ(-200px) scale(2);
+  cursor: pointer;
+}

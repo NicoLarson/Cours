@@ -1,0 +1,48 @@
+HTML : une bonne base pour l'accessibilité.
+HTML et accessibilité.
+1. Faciliter les développements
+2. Meilleur pour le mobile
+3. Bon pour le SOE - Search Engine Optimization
+
+Une bonne sémantique.
+Contenus textuels
+Pour les personnes malvoyants
+Plus simple pour mettre en forme le CSS ou manipuler avec JavaScript
+
+Utiliser un langage clair
+Au lieu d'écrire 5–7, écrivez 5 à 7.
+au lieu d'écrire Jan, écrivez Janvier.
+Au lieu d'écrire "HTML" en premier lieu, écrivez Hypertext Markup Language.
+
+Disposition des pages
+Au lieu d'utiliser <div>, utiliser des éléments de sectionnement appropriés pour envelopper votre navigation principale (<nav>), footer (<footer>), en répétant des unités de contenu (<article>), etc.
+il convient que son ordre source soit logique.
+
+Contrôles de l'interface utilisateur
+Tenir compte des différentes options de contrôle du clavier disponibles.
+
+Remettre l'accessibilité au clavier
+Mieux vaut utiliser le bon élément pour le bon travail en premier lieu.
+
+Étiquettes de texte significatives
+Les étiquettes de texte de contrôle UI sont très utiles pour tous les utilisateurs, mais leur mise au point est particulièrement importante pour les utilisateurs handicapés.
+Assurez-vous que vos étiquettes ont une signification hors contexte
+Associer a un label à une form input signifie que vous pouvez cliquer sur celle-ci pour sélectionner / activer l'élément label.
+
+Tableaux de données accessibles.
+Les en-têtes de tableau sont définis à l'aide d'éléments <th> — vous pouvez également spécifier s'il s'agit d'en-têtes de lignes ou de colonnes à l'aide de l'attribut scope.
+L'élément <caption> et l'attribut summary <table> offre à un utilisateur de lecteur d'écran un résumé rapide et utile du contenu de la table.
+
+Alternatives textuelles
+Le contenu de l'attribut alt doit toujours fournir une représentation directe de l'image et de ce qu'elle transmet visuellement.
+Si les images sont décoratifs, il est préférable de les inclure dans la page en tant qu'images d'arrière-plan CSS.
+Attribuer un id puis utiliser l'attribut aria-labelledby pour: faire référence à cela id, ce qui amène les lecteurs d’écran à utiliser ce paragraphe comme alt text/label pour cette image. Ceci est particulièrement utile si vous souhaitez utiliser le même texte comme étiquette pour plusieurs images - quelque chose qui n’est pas possible avec alt.
+
+Autres mécanismes alternatifs de texte
+L'attribut longdesc destiné à pointer sur un document Web distinct contenant une description étendue de l'image.
+— <figure> et <figcaption> — sont supposés associer une figure quelconque (ce peut être n'importe quoi, pas nécessairement une image) à une légende de figure.
+
+Attributs alt vides
+Dans les cas où une image est uniquement une décoration et n'a pas de valeur de contenu, vous devez mettre un vide alt sur vos images.
+Si possible, vous devriez utiliser CSS pour afficher des images qui ne sont que des décorations.
+

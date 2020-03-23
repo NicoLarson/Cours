@@ -1,0 +1,95 @@
+/* theme */
+header h1 {
+  text-align: center;
+  line-height: 6rem;
+  width: 40rem;
+  margin: 0 auto;
+  animation: first_title 1s linear 4 alternate;
+}
+/* image clé */
+@keyframes first_title {
+  from {
+    /*partie initial*/
+    transform: translateX(-90rem);
+    color: rgb(200, 0, 0);
+  }
+  to {
+    /*partie fin*/
+    transform: translateX(0);
+    color: rgb(0, 200, 0);
+  }
+}
+
+main {
+  max-width: 80rem;
+  margin: 5rem auto 0;
+  font-size: 0;
+}
+main figure {
+  display: inline-block;
+  width: calc(100% / 3);
+  font-size: 1rem;
+  vertical-align: top;
+  text-align: center;
+  padding: 1rem;
+}
+figure figcaption {
+  font-size: x-small; /*large, x-large, xx-large*/
+  line-height: 4.5rem;
+  background-color: #fafafa;
+}
+figure:first-child {
+  animation: logo_01 0.8s linear alternate;
+  animation-delay: 1s;
+}
+figure:nth-of-type(2) {
+  animation: logo_02 0.8s linear 5 alternate;
+  animation-delay: 1s;
+}
+figure:nth-of-type(3) {
+  animation: logo_03 0.5s linear infinite alternate;
+  animation-delay: 0.5s;
+}
+/* l'image clé */
+@keyframes logo_01 {
+  0% {
+    transform: rotateX(0deg);
+  }
+  20% {
+    transform: rotateX(360deg);
+    opacity: 0.5;
+  }
+  40% {
+    transform: rotateY(80deg);
+  }
+  60% {
+    transform: translateY(-100px);
+  }
+  90% {
+    transform: rotateY(360deg);
+  }
+}
+/* second animation */
+@keyframes logo_02 {
+  from {
+    opacity: 0.3;
+    filter: blur(25px);
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1.5) rotate(360deg);
+  }
+}
+/* last animation */
+@keyframes logo_03 {
+  from {
+      filter: sepia(50%);
+      transform: translateY(-50px);
+  }
+  to {
+    filter: sepia(0);
+    transform: translateY(0);
+  }
+}

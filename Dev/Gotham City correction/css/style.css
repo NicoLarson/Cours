@@ -1,0 +1,71 @@
+/* reset css */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+h1,h2,h3,ol,ul,p{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    color:#222;
+}
+*{
+    box-sizing: border-box;
+}
+/* theme */
+:root{
+    --color-default: rgba(236, 240, 241,1.0);
+    --color-main: rgba(189, 195, 199,0.5);
+    --color-secondary: #222;
+
+}
+main{
+    box-shadow: 0 0 1.4rem #222;
+}
+header h1{
+    line-height: 6.5rem;
+}
+
+header, nav, main, footer{
+    max-width: 80rem;
+    margin:0 auto 5px;
+    border: solid 1px transparent;
+}
+section > img{
+    display: block;
+    width: 100%;
+}
+
+nav > h2, section h2{
+    background-color: #999;
+    padding: 0.5rem;
+    line-height: 4.5rem;
+    box-shadow: 0 0.4rem 0 #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+section p, nav ol{
+    padding: 0.6rem;
+    line-height: 2.5rem;
+}
+.marker:target{
+    background: rgba(230, 141, 141, 0.6);
+}
+nav ol{
+    list-style-type: decimal;
+    padding-left: 2.0rem;
+}
+footer *{
+    text-align: center;
+}
+

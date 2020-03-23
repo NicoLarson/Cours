@@ -1,0 +1,134 @@
+header {
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
+}
+/* display block *//*
+main {
+  display: table;
+  margin: 0 auto;
+  max-width: 70rem;
+  border: 1px solid grey;
+  padding: 1.0rem 0 0 1.0rem;
+}
+
+ul li {
+  width: calc(100% / 3 - 1.0rem);
+  float: left;
+}
+ul li{
+  margin: 0 1.0rem 1.0rem 0;
+}
+ul li img {
+  display: block;
+  width: 100%;
+}
+footer {
+  border: 0.5rem solid white;
+  background-color: #222;
+  color: #fafafa;
+  text-align: center;
+  width: 71rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+*/
+ul {
+  display: flex;
+  width: 40rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin: 0 auto 1rem auto;
+  padding: 0.2rem;
+}
+ul li {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% / 3);
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+}
+ul li:nth-of-type(2) {
+  margin: 0 0.2rem 0 0.2rem;
+}
+footer {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 1rem;
+  color: #fafafa;
+  background-color: #222;
+  text-align: center;
+  width: 40rem;
+  margin: 0 auto;
+}
+/* animation */
+li:first-child {
+  filter: sepia(100%);
+  animation: img_1 2s linear alternate;
+  animation-delay: 0.1s;
+}
+
+li:nth-child(2) {
+  animation: img_2 2s linear alternate;
+  animation-delay: 2s;
+}
+
+li:nth-child(3) {
+  animation: img_3 2s linear alternate;
+  animation-delay: 4s;
+}
+footer {
+  animation: footer 2s linear alternate;
+  animation-delay: 0.5s;
+}
+@keyframes img_1 {
+  0% {
+    filter: sepia(100%);
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    filter: sepia(50%);
+    transform: scale(1.2) rotate(720deg);
+  }
+  100% {
+    filter: sepia(100%);
+    transform: scale(1) rotate(720deg);
+  }
+}
+
+@keyframes img_2 {
+  0% {
+    filter: blur(2px);
+    transform: scale(-0.5);
+  }
+  50% {
+    filter: blur(0);
+    transform: scale(1.1);
+  }
+  100% {
+    filter: blur(2px);
+    transform: scale(1);
+  }
+}
+
+@keyframes img_3 {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes footer {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+    border: 3rem solid red;
+    background-color: red;
+  }
+  100% {
+    transform: scale(1);
+  }
+}

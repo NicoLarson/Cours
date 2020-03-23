@@ -1,0 +1,70 @@
+/* Créer le reset */
+html{
+    font-size: 62.5%;  /* 16px mult 62.5% = 1.000rem */
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+h1,h2,p{ /*contexte de balise*/
+    margin: 0;
+    font-weight: 100;
+}
+*{ /*sélecteur universel*/
+    box-sizing: border-box;
+
+}
+
+/* theme */
+header{
+    background-color: #fafafa;
+    border-bottom: solid 0.1rem #ccc;
+}
+header > h1{
+    line-height: 6.5rem;
+    text-align: center;
+    color:rgba(21, 129, 179,1);/* hexadécimal, rgb, rgba*/
+}
+header h1 > sup{
+    color: rgba(110, 10, 10, 1);
+}
+header h1::after{
+    content: '\01F3C6';
+}
+main,footer{
+    max-width: 80rem;
+    border: solid 0.1rem transparent;
+    /*simplifier*/
+    margin: 5.0rem auto;
+    padding: 1.0rem;
+    box-shadow: 0 0 1.0rem #222;
+}
+section{
+    width: auto;
+    line-height: 6.5rem;
+}
+section h2{
+    text-align: center;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+section:nth-of-type(2){/*permet de sélectionner l'élément cible*/
+    margin:1.0rem 0;
+    background: rgb(5, 85, 5);
+}
+section:nth-of-type(1){
+    background: rgb(165, 5, 45);
+}
+section:nth-of-type(3){
+    background: rgb(4, 111, 143);
+}
+/*\2605*/
+section:nth-of-type(1) h2::after{
+    content: '\2605 \2605 \2605';
+}
+section:nth-of-type(2) h2::after{
+    content: '\2605 \2605';
+}
+section:nth-of-type(3) h2::after{
+    content: '\2605 \2605 \2605 \2605 ';
+}

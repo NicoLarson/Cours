@@ -1,0 +1,31 @@
+/*reset*/
+
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap&subset=latin-ext');
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font: 1.6rem 'Sriracha', cursive, sans-serif;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    list-style: none;;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+button{
+    border: 0;
+}

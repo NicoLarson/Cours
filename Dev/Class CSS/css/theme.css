@@ -1,0 +1,94 @@
+/* Theme css 2020 auteur: Nicolas Yang */
+:root{
+    --bg-main-color: #fafafa;
+    --bg-header-color: #222;
+    /* D'autres éléments boutons*/
+    --btn-default: #bdc3c7; /*default toujours gris*/
+    --btn-primary: #2980b9;
+    --btn-secondary: #f39c12;
+    --btn-success: #27ae60; /*success toujours vert*/
+    --btn-danger: #c0392b;
+    --btn-dark: #2c3e50;
+}
+/* class css (faire les classes avant de mettre sur css dans ce cas)*/
+.btn-default{
+    background-color: var(--btn-default);
+}
+.btn-primary{
+    background-color: var(--btn-primary);
+}
+.btn-secondary{
+    background-color: var(--btn-secondary);
+}
+.btn-success{
+    background-color: var(--btn-success);
+}
+.btn-danger{
+    background-color: var(--btn-danger);
+}
+.btn-success{
+    background-color: var(--btn-success);
+}
+.btn-dark{
+    background-color: var(--btn-dark);
+}
+
+header{
+    background-color: var(--bg-header-color);
+    margin-bottom: 5.0rem;
+}
+header > h1{
+    line-height: 6.5rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+footer{
+    margin-top: 5.0rem;
+    text-align: center;
+
+}
+
+/* CSS nav */
+nav ul{
+    display: flex;
+    flex-direction: row;/* ou column */
+    align-items: center;/* allignement vertical des éléments*/
+    padding: 1.0rem;
+    justify-content: space-around;
+    text-align: center;
+}
+nav ul > li{
+    flex: 1 0 1;
+    line-height: 2.5rem;
+    padding: 0.5rem;
+    border: solid 1px #222;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+}
+#nav-secondary{
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#nav-secondary ul{
+    display: inherit;
+    flex-direction: column;
+}
+#nav-secondary ul li{
+    width: 100%;
+    margin-bottom: 1.0rem;
+}
+
+#nav-secondary .btn-large-medium{
+    width: 20rem;
+    margin: 0 auto;
+}
+
+#nav-secondary .btn-large-small{
+    width: 10rem;
+    margin: 0 auto 1.0rem;
+}
+#nav-secondary .btn-large-small::before{
+    content:"\f0a6";
+    font-family: "Font-Awesome 5 Regular Style";
+}

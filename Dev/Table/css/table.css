@@ -1,0 +1,61 @@
+/*theme table*/
+header {
+  background-color: #222;
+}
+header h1 {
+  text-align: center;
+  color: #fff;
+  line-height: 6rem;
+}
+section {
+  max-width: 90rem;
+  margin: 5rem auto 0;
+}
+table {
+  width: 100%;
+  line-height: 4.5rem;
+  border-spacing: 0;
+  background-color: #ecf0f1;
+}
+table,
+tr,
+th,
+td {
+  border: solid 1px #ccc;
+  border-collapse: collapse;
+  font-weight: 100; /*enlever le gras des th*/
+}
+table,
+th,
+td {
+  padding: 0.5rem;
+}
+table th:nth-of-type(1) {
+  width: 20%;
+}
+table thead {
+  background-color: #c0392b;
+  color: #fff;
+}
+table thead th:first-child::before,
+table tfoot th:first-child::before {
+  content: "\f544";
+  font-family: "Font Awesome 5 free";
+  margin-right: 0.5rem;
+}
+table tfoot {
+  background-color: #27ae60;
+  color: #fff;
+}
+tbody tr:nth-child(2n + 1) {
+  background-color: #ccc;
+}
+/*tr:nth-child(even){background-color:#fafafa;*/
+tbody tr {
+  transition: all 300ms ease-in-out;
+}
+tbody tr:hover {
+  cursor: pointer;
+  background-color: #2980b9;
+  color: #fff;
+}

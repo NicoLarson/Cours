@@ -1,0 +1,5 @@
+Verifier Audit
+Faire parler la pge web
+widht mettre display avant
+meta description
+check w3c validator avant de commencer la css

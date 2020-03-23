@@ -1,0 +1,36 @@
+/*theme*/
+section{
+    display: grid;
+    max-width: 50vw;
+    height: 50vh;
+    border: solid 0.1rem transparent;
+    margin: 5.0rem auto;
+    padding: 1.0rem;
+    align-items: center;
+    background: url(../assets/téléchargement.jfif) no-repeat scroll center center / cover;
+    background-color: #ccc;
+    box-shadow: 0 0 1.0rem #222;
+    /* 
+    background-image
+    background-color
+    background-repeat
+    background-position
+    background-repeat
+    */
+}
+header{
+    text-align: center;
+}
+section h2{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.0rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+section h2 > a {
+    display: block;
+    width: 100%;
+    color: #FFF;
+
+}

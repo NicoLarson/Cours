@@ -1,0 +1,97 @@
+/*theme*/
+:root {
+  --color-background-1: #dfe6e9;
+  --color-background-2: #333333;
+  --color-background-3: #222222;
+  --color-background-4: #fff;
+  --color-text: #d1d6d5;
+  --color-text-2: #b2bec3;
+  --color-text-3: #999999;
+  --color-border: #dcdde1;
+  --color-border-2: #9999;
+  --color-border-3: #2d3436;
+}
+
+body {
+  background-color: var(--color-background-1);
+}
+
+header {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  display: block;
+  border: solid 1px var(--color-border-2);
+  width: 50rem;
+  margin: 0 auto;
+}
+
+nav ul li i {
+  margin: 0 3rem 0 0;
+  color: var(--color-text-3);
+}
+
+nav ul li a {
+  display: inline-block;
+  color: var(--color-text);
+  padding: 0.5rem;
+}
+
+nav ul li:last-child {
+  border-top: solid 0.2rem var(--color-background-3);
+}
+
+nav > ul > li {
+  color: var(--color-text);
+  background-color: var(--color-background-2);
+  padding: 1rem;
+}
+
+article h3 {
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem;
+  color: var(--color-text);
+  background-color: var(--color-background-2);
+  width: 100%;
+}
+
+p {
+  text-align: justify;
+  color: var(--color-text-2);
+  background-color: var(--color-background-3);
+  padding: 1rem;
+}
+
+em {
+  font-style: normal;
+  color: var(--color-text-2);
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-top: solid 0.2rem var(--color-background-3);
+}
+
+figure ul {
+  width: 100%;
+}
+
+figure ul li {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border: solid 1px var(--color-border);
+  max-width: calc(100% / 3);
+  float: left;
+  background-color: var(--color-background-4);
+  padding: 2rem 0;
+  line-height: 2rem;
+}

@@ -1,0 +1,136 @@
+/*reset*/ 
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font: 1.6rem sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p,
+figure,
+ul {
+  margin: 0;
+  font-weight: 100;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+/*theme*/
+main {
+  max-width: 90rem;
+  margin: 0 auto;
+  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.1), -3rem 0 4rem rgba(0, 0, 0, 0.1);
+}
+figure img {
+  display: block;
+  width: 100%;
+}
+
+/* top */
+
+.main-content {
+  background-color: #fff;
+}
+.main-content-flex {
+  display: flex;
+  flex: 0 1 40vw; /* flex-grow, flex-shrink, basis */
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.main-content-flex .btn {
+  display: block;
+  padding: 0.5rem;
+  border: solid 0.1rem #ccc;
+  margin: 1rem 0;
+  width: 20rem;
+}
+.main-content-image {
+  background: #fff url(../assets/01.jpeg) no-repeat fixed center center / cover;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+/*partie basse*/
+.main-text-image,
+figcaption h3 {
+  padding: 1rem;
+  background: #333;
+  text-align: center;
+  color: #fafafa;
+  line-height: 3rem;
+}
+section h2,
+figure h3 {
+  font-size: large;
+}
+figcaption {
+  line-height: 2.5rem;
+  padding: 0.5rem;
+}
+footer {
+  display: flex;
+  flex: 0 1 40vw; /*flex-grow, flex-shrink, basis*/
+  height: 50vh;
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+footer h3 {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+footer p {
+  line-height: 2.5rem;
+}
+footer p .footer-text,
+footer p:last-child {
+  font-size: small;
+}
+footer hr {
+  width: 30%;
+  border: 0;
+  height: 0.1rem;
+  background: #ccc;
+}
+/* Media queris */
+
+@media screen and (min-width: 750px) {
+  /* largeur minimale sur desktop */
+  .main-content {
+    display: flex;
+    height: 100vh;
+  }
+  .main-content-flex,
+  .main-content-image {
+    height: 100vh;
+  }
+}
+@media screen and (orientation: landscape) {
+  main {
+    flex-direction: row;
+  }
+}
+@media print {
+  /* pour l'impression */
+  .main-content-flex,
+  .main-content-image,
+  .main-content,
+  figcaption,
+  p {
+    display: none;
+  }
+}

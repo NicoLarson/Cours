@@ -1,0 +1,46 @@
+Exercice 1
+A 1 B 1
+
+Exercice 2
+Afficher A, "et ", B, " ne sont pas nuls."
+Fin si.
+
+Exercice 3
+Saisir A;
+Si A > 18
+Alors
+Afficher "Vous êtes majeur"
+Fin si
+
+Exercice 4
+variables
+numumérique X
+Saisir X
+si X>0 
+alors
+afficher "Valeur absolue = ",X
+sinon si X = 0 
+alors
+afficher "Valeur absolue = ", 0
+sinon 
+afficher "Valeur absole = ", -X
+Fin si
+Fin si
+
+Exercice 5
+Variable
+Numérique X
+Saisir X
+Si X < 8
+alors afficher "ajourné"
+sinon si 8 < X < 10
+afficher "oral"
+sinon afficher "admis"
+fin si
+fin si
+
+Exercice 6
+Variable
+numérique X
+Saisir X
+

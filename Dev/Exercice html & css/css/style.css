@@ -1,0 +1,113 @@
+/*theme*/
+:root {
+  font: 1rem "Open Sans", sans-serif;
+  --color-text: #fff;
+  --color-background: rgba(255, 255, 255, 0.9);
+  --color-backgroundsec: #3498db;
+  --color-backgroundsecbottom: #2980b9;
+  --color-shadow: #2c3e50;
+  --color-target:#e74c3c;
+  --color-targetsec:#c0392b;
+}
+html {
+  background: url(../assets/background.png) no-repeat fixed;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+body {
+  display: block;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 0.7rem;
+  background: var(--color-background);
+  box-shadow: -0.3rem 0 0.5rem 0 var(--color-shadow),
+    0.3rem 0 0.5rem 0 var(--color-shadow);
+}
+
+main,
+header,
+footer {
+  display: block;
+}
+article > img {
+  display: block;
+  width: 100%;
+  margin: -1rem 0 1rem;
+}
+h1,
+h2 {
+  font-family: "Zhi Mang Xing", cursive;
+}
+h1 {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 4.5rem;
+}
+header h1::before {
+  content: "\2605";
+  color: red;
+}
+h2 {
+  background-color: var(--color-backgroundsec);
+  color: var(--color-text);
+  padding: 0.5rem 0.3rem;
+  border-bottom: solid 0.2rem var(--color-backgroundsecbottom);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nav h2,
+article h2 {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+ol{
+  margin: 1.5rem 0;
+}
+li {
+  line-height: 1.5rem;
+}
+p {
+  text-align: justify;
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: -1rem;
+  padding-bottom: 1rem;
+}
+/* class */
+.marker:target {
+  background:var(--color-target);
+  border-bottom: solid 0.2rem var(--color-targetsec);
+}
+
+
+/* Approche mobile-first ou responsive */
+@media screen and (max-width: 640px) {
+  h2{
+    border-radius: 0.5rem;
+  }
+  ol{
+    margin: 1rem;
+    padding: 0;
+  }
+  
+  li{
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    background-color: var(--color-backgroundsec);
+  }
+  ol>li>a{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    color: var(--color-text);
+  }
+}

@@ -1,0 +1,91 @@
+display block
+inconveniant:
+- alignement
+
+
+Pour icone
+aria-hidden="true"
+-----------------------------------------------------
+
+Display:
+Naturel HTML
+(
+    block,
+    inline,
+    table,
+    liste-item,
+)
+
+Display CSS:
+(
+    inline-block, doté des propriété inlinete block. On ne peut pas utiliser le float
+    table-row, 
+    table-cell,
+    flex, nouveau display css3
+)
+flex : bonne adaptabilité
+
+---------------------------------------------------------
+
+CSS => sélecteur, propriété, valeur
+
+HTML => élément, attribut, valeur
+<link rel="stylesheet" herf="./">
+
+
+transform: translate(-50%, -50%); Calcule pour centrer
+
+class, Identificateur
+
+:root{
+}
+
+.maClasse{
+}
+
+#identification{
+    attribuer juste une fois
+}
+
+class : varialble
+exemple de forme : btn-color
+Choisir des noms anglophones
+Et crée de façon sémantique
+
+
+-------------------------------------------
+
+A connaître
+CDN : Content Delivery Network 
+www : World Wide Web
+html : Hypertext Transfer Protocol
+href : hyperTextReference
+URL : Uniform Ressource Locator
+
+
+URI : Uniform Resource Identificator #
+Identificateur de vocabulaire
+Retrouver un sujet sur internet
+
+http://www.portfolio.com
+extension : .com
+subdomaine : www
+domaine : portfolio
+protocol : http
+
+http://127.0.0.1:5500/index.html
+
+--------------------------------------------
+display : inline block; => élément modifiable et faculter de pouvoir prendre un block et le mettre à coté d'un autre. Inconveniant 
+<!-- ascendent, decendent, adjacent -->
+
+
+Centrer un block - margin: 0 auto;
+a voir
+
+display: block;
+widht : calc();
+overflow : hidden;
+box-sizing : border-box;
+(chemin des données)
+(Nodejs)
