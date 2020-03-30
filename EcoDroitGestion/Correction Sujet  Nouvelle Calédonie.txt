@@ -1,0 +1,83 @@
+1.1Mettre en évidence les principales tendances du marché mondial des applications mobiles.
+
+1ere chose a faire normalement c'est de definir les mots clés
+Mais c'est vrai que la... vous pouvez tout de meme placer la logique de marché
+Au moins definir le type de marché sur lequel est positionnée APP BUSINESS
+B2B
+B2C
+Le marché ici :  l’édition d’applications mobiles
+Un marché dédié B2C
+Business to consumer
+Sinon ce marché des applications mobiles est en plein boom depujs la democratisation des smartphones
+Un marché en evolution mais qui par definition n'est pas pret d'arriver a saturation
+Puisque les applications correspondent a une consommation plutot tournee vers les loisirs et les services, notamment en direction des consommateurs particuliers
+Apres a vous de voir quels données chiffrées vous choisissez de mettre en avant
+L’an dernier, le chiffre d’affaires généré par l’App Store et le Play Store (Google) a été de 41,1 milliards de dollars. En 2016, ce résultat devrait grimper de 24% pour atteindre les 50,9 milliards. Et à l’horizon 2020, il dépassera le seuil des 100 milliards. Une croissance explosive qui va profiter à tous, non seulement aux plateformes mais aussi, bien évidemment, aux développeurs et éditeurs d’applications mobiles (apps).
+	En toute logique, cet appétit d’applications se lit également sur les volumes de téléchargements. En 2015, ce sont 111,2 milliards d’apps qui ont été téléchargées ; le chiffre va augmenter de 33% en 2016 (147,3 milliards), et à l’horizon 2020, on prévoit 284,3 milliards de logiciels mobiles téléchargés.
+Un marche avec de forts débouchés mais si l'on peut reflechir a ce segment de marché tres particulier : l'agroalimentaire et en l'occurrence ici le thé
+Il faut donc avoir une offre tres pointue et precise pour ne pas decevoir les amateurs de thé!
+
+Le degré de concurrence
+	S'il y a des debouchés, cela signifie qu'il y a un effet d'attractivité et donc beaucoup de concurrents sont presents sur ce marché
+Petites sociétés de developpement informatique
+Mais aussi des géants de l'industrie informatique qui développent leurs propres applications
+L'intensité concurrentielle est donc forte
+Une forte atomicité de l'offre
+Une conséquence directe a cette importante concurrence :
+L'obligation de faire de la veille concurentielle afin de savoir ce sue propose les concurrents, leurs produits, leurs prix, etc...
+
+/* LE BUT C'EST VRAIMENT QU'IL Y AI UN APPORT PERSO
+Et que vous vous appuyiez apres sur les donnees (chiffrees) des documents
+Comme ca vous ne tombez pas dans le piege du recopiage et de la paraphrase. */
+
+1.2Identifier le modèle de fixation des prix choisi par la société APPs BUSINESS pour l’application Tea-App. Expliquer ses avantages ainsi que ses limites du point de vue de l’éditeur.
+ 
+
+
+ANNEXE 8 : Les plateformes Apple et Google
+Pour la plateforme Apple représentée par l’iPhone, l’iPad et l’iPod, le langage utilisé est l’objective-C. Apple met à disposition un SDK (Software Development Kit) gratuit et un environnement complet de développement. Comparativement à Android, il y a moins de terminaux et donc une facilité de prise en compte des résolutions des terminaux Apple. Le développement est donc plus facile à mettre en œuvre sur l’iPhone et l’iPad que sur Android à cause de la fragmentation.
+Pour la plateforme Google, représentée par les smartphones et tablettes Android, le langage natif est le Java. De même que sur iOs, Android met à disposition un SDK (Software Development Kit) avec de multiples outils comme un simulateur d’environnement Android. Les difficultés de développement sous Android se manifestent autour de la fragmentation. Google a fait le choix de ne pas donner de consigne de fabrication pour l’utilisation de son Os (en Open Source). Un choix discutable qui permet une plus grande ouverture mais peut poser des problèmes de compatibilité lorsque l’on développe une application. Par exemple, on dénombre plus de 500 tailles d’écran différent car Android donne une large possibilité de design des terminaux aux constructeurs. Cela peut être un problème lors du développement pour maximiser la compatibilité sur tous les terminaux Android. [...]
+Publier une application sur l’AppStore repose sur l’approbation des équipes d’Apple. Après un délai d’entre deux semaines et un mois, l’application sera validée si elle n’enfreint pas les règles d’Apple.
+Prix de la diffusion d’une application sur l’AppStore
+Si le SDK est distribué gratuitement, la diffusion d’une application sur l’AppStore est, elle, payante. Apple propose plusieurs types de compte pour diffuser une application sur l’AppStore. Le compte standard propose pour 99 $ par an la diffusion d’applications, tandis que le compte entreprise vous permet la distribution d’applications au sein du parc iOS de l’entreprise.
+Le prix de l’application est libre mais l’éditeur de l’application doit verser une commission de 30 % à Apple sur le chiffre d’affaires réalisé via son application.
+Source : developer.apple.com/ Adaptée par les auteurs
+Contrairement à Apple, Google ne contrôle pas la diffusion d’applications sur son magasin en ligne Google Play. Il vous sera demandé 25 $ de frais de dossier et Google rejoint Apple en ponctionnant de 30 % les applications payantes. Il existe tout de même des rejets d’applications du Google Play lorsque des utilisateurs déposent une plainte auprès de Google.
+Source : developer.android.com
+MAIS NORMALEMENT VOUS ETES MIEUX PLACÉ QUE MOI POUR PARLER DE TOUTE LA PARTIE TECHNIQUE
+MISSION 2 : La croissance de l’entreprise et son mode de management (11 points) – Annexes 1 et 9
+L’application Tea-App a séduit de nombreux amateurs de thé. 200 000 téléchargements ont été comptabilisés à ce jour. La croissance rapide et continue de l’activité de la société depuis sa création a nécessité l’embauche de nouveaux salariés et amène aujourd’hui la dirigeante à réfléchir au fonctionnement interne de la société et à sa structure organisationnelle.
+2.1Identifier les différentes ressources dont dispose l’entreprise pour accompagner son développement et sa démarche d’innovation.
+Partez du general, c'est a dire les connaissances acquises en cours
+Les ressources sont de deux natures
+Ressources tangibles ou materielles
+Locaux, batiments, machines, outils de production
+Et les ressources intangibles ou immaterielles
+Savoirs faire, competence, notoriété, capacite a s'organiser, brevet publicité etc...
+L'entrepreneur combine ces deux types de ressources afin de produire le plus efficacement possible
+L'intérêt de reflechir au concept de ressources, c'est de se positionner sur un marché avec des ressources qui vous procurent un AVANTAGE CONCURRENTIEL
+Elles doivent donc être difficilement imitables par les concurrents
+Exemple : developper de nouveaux outils type logiciels et former les salariés dessus
+Quelques exemples de ressources dont dispose APP BUSINESS pour se developper
+- ressources financières :
+Créée en 2013 avec 50 000 euros de capitaux propres, notre société a réalisé l’année dernière une levée de fonds de 200 000 euros sur un site de crowdfunding5 pour soutenir sa croissance. Une autre levée de fonds est en préparation pour l’année prochaine. Ces nouvelles ressources financières sont indispensables pour une refonte de notre système d’information afin d’améliorer notre expertise technique et notre savoir-faire dans la conception d’applications mobiles.
+- ressources humaines :
+Elle est composée de 20 salariés, notamment des développeurs polyvalents, créatifs et hautement qualifiés, des ingénieurs ainsi que des commerciaux, les services supports étant externalisés
+Nos développeurs sont tous passionnés par leur métier et nous leur laissons beaucoup d’autonomie au sein des équipes projets.
+Grâce à ses nombreuses innovations technologiques et à une recherche et développement récompensée par l’obtention du label Jeune Entreprise Innovante (J.E.I.)3 en 2015, elle est reconnue sur son marché pour son savoir-faire et la qualité de son équipe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,81 @@
 Core 2 duo + 2 cartes réseau 
 + 2 cables reseau de 5m 
 
+_____________________
+pfsens
+
+wan em0
+lan em1
+
+option 2
+
+1
+ipv4 y
+ipv6 n
+web config protocol n
+
+c'est bon wan configuré
+
+2
+rentrer ip de la machine
+ex : 192.168.01
+entrer le nombre de bit:
+24
+prenss enter
+press enter
+
+web config
+non
+________________________
+changer la carte wan
+Edit virtual network editor
+changer comme on veux
+_________________________
+cloner la machine Windows
+mac adresse la machine cloné generate
+changer la network sur le meme que vmware
+ex vm2
+Changer le nom de la machine cloné
+
+aller dans les machines win
+cmd et ipconfig pour voir le ip
+
+desactiver ipv 6 dans les paramettre
+
+changer le nom de la machine
+click droit sur pc
+propriété
+modifier paramettre
+modifier du nom renommer
+(on ajotera le dns de l'active directory ici)
+desactiver parfeu windows
+parfeux desactiver
+
+cmd envoyer un ping pour verifier la desactivation des parfeu
+
+pfsens option 7 ping
+mettre sa propre adresse ip
+
+installer fire fox
+mettre adresse parfeu
+192.1
+
+admin
+pfsens
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

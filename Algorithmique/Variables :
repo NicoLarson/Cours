@@ -1,0 +1,58 @@
+Variables :
+    Réel : a, b, c
+
+Début
+    Afficher "Saisir 3 valeurs"
+    Saisir a, b, c
+    Si a > b et b > c
+        Afficher a, b, c
+    Sinon
+        Si a > c et c > b
+            Afficher a, c, b
+        Sinon 
+            Si b > a et a > c
+                Afficher b, a, c
+            Sinon
+                Si b > c et c > a
+                    Afficher b, c, a
+                    Sinon  
+                        Si c > a et a > b
+                            Afficher c, a, b
+                            Sinon
+                                Si c > b et b > a
+                                    Afficher c, b, a
+                                Fin si
+                            Fin si
+                        Fin si
+                    Fin si
+                Fin si
+            Fin si
+        Fin si
+    Fin 
+    
+
+    Algorithme Tri de trois valeurs
+
+Variables :
+    Entier : a, b, c, temp
+
+Début
+    Afficher "Saisir 3 valeurs"
+    Saisir a, b, c
+    Si a > b alors
+        temp <-- a
+        a <-- b
+        b <-- temp
+    Fin Si
+    Si b > c alors
+        temp <-- b
+        c <-- b
+        b <-- temp
+    Fin Si
+    Si a > balors
+        temp <-- a
+        a <-- b
+        b <-- temp
+    Fin Si
+    Afficher "Les trois valeurs dans l'ordre sont : ", a, ", ", b, " et ", c, "."
+Fin
