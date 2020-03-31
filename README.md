@@ -1,1 +1,1 @@
-# BTS-SIO
+# Cours BTS - Service Informatique aux Organisations
