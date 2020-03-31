@@ -1,0 +1,25 @@
+Ex1
+SELECT nomMod FROM MODULE
+
+Ex2
+SELECT distinct numModPrereq FROM PREREQUIS
+order by number
+
+ WHERE numMod = 6 || numMod = 2;
+
+Ex3
+
+SELECT nomMod
+FROM MODULE
+where numMod = 1 or numMod = 3 
+where numMod in (1,2,3
+
+Ex4
+SELECT numModPrereq FROM PREREQUIS WHERE numMod = 6 || numMod = 2;
+
+
+UPDATE PREREQUIS
+SET nouvelle =  anciene note +2
+WHERE numMod =
+Where numMod = sho 
+Ex5

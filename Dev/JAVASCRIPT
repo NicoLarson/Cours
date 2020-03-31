@@ -1,0 +1,9 @@
+asynchrone : Pas besoin de charger pour afficher les données.
+
+synchrone : Besoin de recharger la page.
+
+PHP synchrone
+
+JavaScript asynchrone
+
+variable : donnée ou on peut attribier une valleur.
