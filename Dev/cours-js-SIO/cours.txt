@@ -1,0 +1,48 @@
+Ecouteur : permet transmettre une information
+Emmetteur : 
+Methode apparenté a des fonction
+
+compilé : il est traduit en langage machine pour etre interprété par la machine.
+intérprété : language interpréte par le navigateur.
+transcompilation : compilé par d'autre language.
+
+
+Language de bas niveau (se rapproche de la machine) : 
+Assembleur 0101001
+ - C    compilé
+ - C++  compilé
+ - typeScript => Angular
+ - Python => django
+ - React => MS
+Langage de haut niveau (s'eloigne de la machine) :
+ - Java compilé
+ - PHP => Synfony, Laravel
+ - Node js => EJS intérprété par le navigateur et transcompilé
+
+Début du script
+
+Initialistation
+
+concaténation
+
+
+let : variable
+const : inchangeable
+
+Methode : exemple 
+prompt
+querySelector 
+getElements 
+push
+
+NaN : Not a number
+
+OBJET PROPRIETE METHODE
+
+BOM : Browser Object Model
+DOM : Document Objet Model
+
+Chaque donnée doit etre spécifques
+ex: en html on a input text. Le js on doit verifier que c'est un number.
+
+itération = boucle
