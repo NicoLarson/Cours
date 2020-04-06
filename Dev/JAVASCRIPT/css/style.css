@@ -19,5 +19,6 @@ h1,h2,h3,p,ul,ol{
 header h1{
     line-height: 6.5rem;
     text-align: center;
-    
+    font-weight: bolder;
+    background-color: yellow;    
 }

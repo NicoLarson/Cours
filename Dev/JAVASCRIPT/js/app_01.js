@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // DOM
 
     let el_title = document.querySelector('header > h1') //par defaut c'est le
-    //let el_title = document.querySelectorAll('h1')[0] //par defaut c'est le
+    //let el_title = document.querySelectorAll('h1')[0]
     //document.getElementById("clear")
     //document.getElementsTagName("p")[0]
     //document.getElementsByName("nom")[0]

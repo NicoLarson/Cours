@@ -39,10 +39,13 @@ NaN : Not a number
 
 OBJET PROPRIETE METHODE
 
-BOM : Browser Object Model
+BOM : Browser Object Model - exemple : prompt
 DOM : Document Objet Model
 
 Chaque donnée doit etre spécifques
 ex: en html on a input text. Le js on doit verifier que c'est un number.
 
 itération = boucle
+________________________________________
+Objets 
+prototipes
