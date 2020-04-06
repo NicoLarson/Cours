@@ -1,0 +1,30 @@
+Installation
+
+sudo apt install mysql-server
+
+Utilisation
+Démarrage
+sudo systemctl start mysql
+
+Connaître la version
+mysql --version
+
+
+Lancer la console MySQL
+sudo mysql
+
+Base de donnée
+Utiliser une base de données existante
+USE nom_de_la_base;
+
+Créer une base de données
+CREATE DATABASE nom_de_la_base;
+
+Liste des bases de données
+SHOW DATABASES;
+
+Supprimer une base de données
+DROP DATABASE nom_de_la_base;
+
+Importer une base de données située dans le répertoire courant (base de donnée exportée en .sql)
+SOURCE fichier.sql;
