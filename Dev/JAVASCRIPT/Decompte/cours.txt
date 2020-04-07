@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded",()=>{
+    console.log("loaded")
+})
+
+
 Ecouteur : permet transmettre une information
 Emmetteur : 
 Methode apparenté a des fonction
@@ -24,7 +29,6 @@ Début du script
 Initialistation
 
 concaténation
-
 
 let : variable
 const : inchangeable
