@@ -3,4 +3,5 @@ Problème
 Sous Problème
 
 
+Avant de coder il faut savoir ce qu'on va faire à l'avance
 Ensuite coder
