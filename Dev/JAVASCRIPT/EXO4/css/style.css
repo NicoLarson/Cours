@@ -1,0 +1,52 @@
+/* Reset */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+article,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    list-style: none;
+}
+
+/* Theme*/
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+article {
+    margin: 0 auto;
+    width: 60vw;
+    border: 1px solid #999;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(500, 0, 0);
+    padding: 0.5rem;
+}
+
+p {
+    text-align: center;
+}
+
+article :nth-child(3n) {
+    font-size: 1.2rem;
+}
