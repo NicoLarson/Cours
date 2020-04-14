@@ -1,0 +1,46 @@
+/* Reset */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    list-style: none;
+}
+
+/* Theme */
+
+header h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+main h2 {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(0, 200, 0);
+    color: #fff;
+    font-size: 2rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+main p {
+    text-align: center;
+    padding: 2rem;
+}
