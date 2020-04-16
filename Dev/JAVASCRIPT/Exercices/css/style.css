@@ -2,10 +2,12 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   font: 1.6rem sans-serif;
   margin: 0;
 }
+
 h1,
 h2,
 h3,
@@ -17,8 +19,14 @@ ol {
   list-style-type: none;
   font-weight: 100;
 }
+
 * {
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #222
 }
 
 /* Theme */
@@ -30,17 +38,52 @@ header h1 {
 }
 
 main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 2rem;
 }
 
-p {
-  vertical-align: baseline;
-  text-align: center;
-  font-size: 8rem;
+main section {
+  max-width: 40rem;
+  padding: 1.4rem;
+  background-color: #fff;
+  margin: 1rem auto;
+  transform: translateX(-100rem);
+  transition-duration: 0.5s;
 }
-.color-default{
+
+main section p {
+  text-align: center;
+  font-size: initial;
+}
+
+.color-default {
   color: #ccc
+}
+
+section h1 {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+  margin: 2rem;
+  border-radius: .5rem;
+}
+
+/* Theme boutons */
+
+.btn-default {
+  display: block;
+  line-height: 2.5rem;
+  padding: 1.0rem;
+  text-align: center;
+  border-radius: .5rem;
+  background-color: #ccc;
+  max-width: 20rem;
+  margin: 0 auto;
+  transition-duration: 0.9s;
+}
+
+.btn-alert {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border-radius: .5rem;
 }

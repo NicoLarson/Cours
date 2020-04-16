@@ -9,10 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
         let tic = el.innerText;
         el.innerText = tic - 1;
         console.log(tic)
-        //tic == 5 ? alert("décompte : "+tic) : false;
-        tic == 1 ? clearInterval(time) : 0;
-        //test pour afficher un evenement 
-        if (tic > 1) {
+        tic == 1 ? clearInterval(time) : 0; //tic == 5 ? alert("décompte : "+tic) : false;
+        if (tic > 1) {    //test pour afficher un evenement 
             el.innerText = tic - 1;
         }
         else {
@@ -22,8 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    //appel de la fonction chrono
-    let time = setInterval(chrono, 1000);
+    let time = setInterval(chrono, 1000); //appel de la fonction chrono
 
 
 })

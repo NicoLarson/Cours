@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     console.log("loaded")
 })
 
-
 Ecouteur : permet transmettre une information
 Emmetteur : 
 Methode apparenté a des fonction
@@ -10,7 +9,6 @@ Methode apparenté a des fonction
 compilé : il est traduit en langage machine pour etre interprété par la machine.
 intérprété : language interpréte par le navigateur.
 transcompilation : compilé par d'autre language.
-
 
 Language de bas niveau (se rapproche de la machine) : 
 Assembleur 0101001
