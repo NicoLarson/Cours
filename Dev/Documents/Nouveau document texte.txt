@@ -1,7 +1,0 @@
-First mobile :
-commencer en mode mobile et aller en desktop
-
-Responsive :
-commencer en desktop et aller en mode mobile
-
-head vérif

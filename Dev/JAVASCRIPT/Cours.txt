@@ -51,3 +51,11 @@ itération = boucle
 ________________________________________
 Objets 
 prototipes
+
+
+CSS:
+first mobile : utilisation de max-width pour le first mobile. 
+
+width: auto
+
+un element inline-block, inline, table ne peuvent pas avoir une width auto.

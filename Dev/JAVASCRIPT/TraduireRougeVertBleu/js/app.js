@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/* document.addEventListener("DOMContentLoaded", () => {
 
     const rouge = "rouge",
         vert = "vert",
@@ -29,4 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     btn.addEventListener("click", couleur, false)
+}) */
+
+
+//* Correction
+document.addEventListener("DOMContentLoaded", () => {
+
+    console.log("Load")
+
 })

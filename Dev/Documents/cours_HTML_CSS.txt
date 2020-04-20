@@ -1,6 +1,59 @@
+./ = Racine du répértoire
+cd = change directory (exemple cd asset)
+../ = 
+**************
+First mobile :
+commencer en mode mobile et aller en desktop
+
+Responsive :
+commencer en desktop et aller en mode mobile
+
+A faire:
+Verifier Audit
+Faire parler la pge web
+widht mettre display avant
+meta description
+check w3c validator avant de commencer la css
+
+
+head vérif
+
+En HTML
+élement attribut valeur
+<img scr="logo.jpg" alt="logo">
+
+
+En CSS
+sélecteur propriété valeur
+
+Standard taille 16px en rem
+Unitées de mesure px, em, %, vh...
+
+16px mult 62.5% = 1.000rem
+
+serif vs sans-serif
+default
+
 display block
 inconveniant:
 - alignement
+
+inherit = prend la valeur du parent le plus haut
+exemple: 
+<body>
+    <header>
+        <h1>Question prompt</h1>
+    </header>
+    <main class="main-primary">
+    <button>Traduire une couleur</button>
+    <p></p>
+    <p class="warning">warning</p>
+    </main>
+    <footer></footer>
+    <script src="./js/app.js"></script>
+</body>
+
+p prendra la valuer de body
 
 
 Pour icone

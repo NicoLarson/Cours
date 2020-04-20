@@ -21,22 +21,45 @@ p {
     font-weight: 100;
     list-style: none;
 }
-
+button{
+    background: none;
+    border: none;
+}
 /* Theme*/
 
+.main-primary {
+    max-width: 70rem; /* max-width, width, min-width */
+    margin: 0 auto;
+    border: solid 0.1rem #ccc;
+    padding: 1.0rem;
+}
+main button{
+    width: 100%;
+    line-height: 3.5rem;
+    font-size: inherit;
+    background-color: rgba(200,0,0,1);
+    color: #fff;
+    cursor: pointer;
+    box-shadow:0 0 0.5 #222;
+}
+
+/* main{
+    margin: 0 auto;
+    text-align: center;
+}
 h1 {
     text-align: center;
     padding: 2rem;
 }
 
 article {
-    margin: 0 auto;
     width: 60vw;
     border: 1px solid #999;
     padding: 1rem;
 }
 
-h2 {
+button {
+    margin: 0 auto;
     text-align: center;
     color: #fff;
     background-color: rgb(500, 0, 0);
@@ -46,7 +69,6 @@ h2 {
 p {
     text-align: center;
 }
-
-article :nth-child(3n) {
+main :nth-child(3n) {
     font-size: 1.2rem;
-}
+} */
