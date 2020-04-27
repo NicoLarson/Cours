@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-
     let target = document.querySelector("main > ul")
 
     //* tableau d'objet 
@@ -18,12 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
         email: 'Caro@gmail.com'
     }]
 
+    for (key in eleves)
+        target.innerHTML += `<li>${eleves[key].nom} - ${eleves[key].moyenne} - <a  href="mailto:${eleves[key].email}">${eleves[key].email}</a></li>`
 
-    for (key in eleves) target.innerHTML += `<li>${eleves[key].nom} - ${eleves[key].moyenne} - <a  href="mailto:${eleves[key].email}">${eleves[key].email}</a></li>`
-
-
-
-    /*   for (i = 0; i < eleves.length; i++) {
+    /*   for (i = 0; i < eleves.length; i++){
         // console.log(`${eleves[i].nom} ${eleves[i].moyenne} ${eleves[i].email}`);
         if (eleves[i].moyenne < 12) {
             console.log(eleves[i].nom + ' : ' + eleves[i].moyenne)
@@ -34,8 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(typeof (eleves));
         console.log(JSON.stringify(eleves))
         console.log(JSON.parse(JSON.stringify(eleves))); */
-    //* Affichage le tableau dans une liste + mail en lien hypper text
-
 })
 /*  Correction 
 document.addEventListener("DOMContentLoaded",()=>{

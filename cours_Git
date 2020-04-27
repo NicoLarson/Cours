@@ -1,0 +1,40 @@
+https://www.grafikart.fr/tutoriels/git-workflow-478
+
+Git
+
+Nouveau projet
+cmd git init
+
+Creation de fichiers
+Projet initialisé 
+cmd git add . //Pour ajouter tous les fichiers
+
+Faire un premier commit
+cmd git commit -m "First commit"
+
+Modification des fichiers...
+
+Cree une branche pour faire des commits
+cmd git branch 1.0-homepage // création d'une branche
+
+Aller sur la branche
+git checkout 1.0-homepage 
+
+Ajouter les fichers à la branche
+cmd git add .
+
+Faire un commit
+cmd git commit -m "Modification homepage"
+
+.
+.
+.
+
+Une fois fini, 
+aller sur la branche principlal
+cmd git checkout master
+
+fusionner la branche avec la branche principal
+cmd git merge 1.0-homepage
+
+

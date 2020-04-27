@@ -1,0 +1,165 @@
+Exercices boucle
+
+Exercice 1
+Variable : n
+Début
+Afficher "Saisissez n : "
+Saisir n
+    Tant que n > 0
+        Afficher n
+        n <- n -1
+    Fin tant que
+Fin
+
+Variable : n
+Début
+Afficher "Saisissez n : "
+Saisir n
+    Répéter
+            Afficher n
+            n <- n -1
+        Fin si
+    Jusqu'à n < 0
+Fin
+
+Variable : n
+Début
+Afficher "Saisissez n : "
+Saisir n
+    Pour i allant de 0 à n par pas de -1
+        Afficher i
+    Fin pour
+Fin
+
+Exercice 2
+
+Factorielle de n = n! = 1 * 2 * 3 * ... * (n-1) * n
+Cas particulier : 0! = 1
+    
+0! = 1
+1! = 1 = 0! * 1 = 1
+2! = 1*2 = 1! * 2 = 2
+3! = 1*2*3 = 2! * 3 = 6
+4! = 1*2*3*4 = 3! * 4 = 24
+5! = 1*2*3*4*5 = 4! * 5 = 120
+...
+n! = 1*...*(n-1)*n = (n-1)! * n
+
+Variable : n,i,f
+Début
+    Afficher "Saissisez n : "
+    Saisir n
+    f <- 1
+    i <- 2
+        Tant que i <= n
+            f <- f * i
+            i <- i + 1
+        Fin tant que
+Fin 
+Afficher "La factoriel de ",n","est",f,"."
+
+Variable : n,i,f
+Début
+    Afficher "Saissisez n : "
+    Saisir n
+    f <- 1
+    i <- i
+        Répéter
+            f <- f * i
+            i <- i + 1
+        Jusqu'à i > n
+Fin 
+Afficher "La factoriel de ",n","est",f,"."
+
+Variable : n,i,f
+Début
+    Afficher "Saissisez n : "
+    Saisir n
+    f <- 1
+    Pour i <- 2 à n par pas de 1
+        f <- f * i
+    Fin pour
+Fin 
+Afficher "La factoriel de ",n","est",f,"."
+
+Exercice 4
+
+Variable : n, i, t
+Début
+    Afficher "Saissisez n : "
+    Saisir n
+    Pour i allant de 0 à 10 par pas de 1
+        t <- n * i
+        Afficher n," * ",i" = ",t "." 
+    Fin pour
+Fin 
+
+Exercice 5
+
+Variable: b, n
+Début
+    Afficher "Saisir b : "
+    Saisir b
+    Afficher "Saisir n : "
+    Saisir n
+        Pour i alant de 1 à e
+
+Fin
+VARIABLES
+    base EST_DU_TYPE NOMBRE
+    exposant EST_DU_TYPE NOMBRE
+    resultat EST_DU_TYPE NOMBRE
+    compteur EST_DU_TYPE NOMBRE
+DEBUT_ALGORITHME
+    LIRE base
+    LIRE exposant    
+    resultat PREND_LA_VALEUR 1
+    POUR compteur ALLANT_DE 1 A exposant
+        DEBUT_POUR
+            resultat PREND_LA_VALEUR resultat * base
+        FIN_POUR
+    AFFICHER base
+    AFFICHER "^"
+    AFFICHER exposant
+    AFFICHER "="
+    AFFICHER* resultat
+FIN_ALGORITHME
+Exercice 6
+
+Variables: n, i, x
+x <- 0
+Début
+    Pour i allant de 0 à n par pas de 1
+       x <- i + x
+    Fin pour
+    Afficher "x"
+Fin
+
+Exercice 7
+
+VARIABLES
+    n EST_DU_TYPE NOMBRE
+    compteur EST_DU_TYPE NOMBRE
+    premier EST_DU_TYPE NOMBRE
+DEBUT_ALGORITHME
+    LIRE n
+    compteur PREND_LA_VALEUR 2
+    premier PREND_LA_VALEUR 1
+    TANT_QUE (compteur < n) FAIRE
+        DEBUT_TANT_QUE
+            SI (n % compteur == 0) ALORS
+                DEBUT_SI
+                    premier PREND_LA_VALEUR 0
+                FIN_SI    
+            compteur PREND_LA_VALEUR compteur + 1
+        FIN_TANT_QUE    
+    AFFICHER n
+    SI (premier == 1) ALORS
+        DEBUT_SI
+            AFFICHER* " est premier"
+        FIN_SI    
+    SINON
+        DEBUT_SINON
+            AFFICHER* " n'est pas premier"
+        FIN_SINON        
+FIN_ALGORITHME
