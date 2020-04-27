@@ -30,4 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             showScore.innerHTML += `<img src="./assets/loser.jpg"><br>Désolé votre score est : ${score} point`
             break
     }
+
+//* Stocker des données
+localStorage.setItem("points",playerAnswer) 
 })

@@ -43,6 +43,6 @@ main ul li{
     padding: 1.3rem;
 }
 main ul li:nth-child(odd){
-    background-color: #222;
+    background-color: aqua;
     color: #fff;
 }

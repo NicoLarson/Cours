@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded",()=>{
-    console.log("loaded")
+document.addEventListener("DOMContentLoaded", ()=>{  // Sert à chargé et analysé le html
+console.log("Load");
 })
 
 Ecouteur : permet transmettre une information
@@ -22,11 +22,12 @@ Langage de haut niveau (s'eloigne de la machine) :
  - PHP => Synfony, Laravel
  - Node js => EJS intérprété par le navigateur et transcompilé
 
+
 Début du script
 
 Initialistation
 
-concaténation
+concaténation : +
 
 let : variable
 const : inchangeable
@@ -59,3 +60,24 @@ first mobile : utilisation de max-width pour le first mobile.
 width: auto
 
 un element inline-block, inline, table ne peuvent pas avoir une width auto.
+
+
+objet:
+methode : est une fonction qui apartient a un objet
+fonction :
+paramettre :
+propriété : 
+
+concaténation != ajouter
+
+
+La Fonction
+Déclarer une fonction :
+    let, const
+
+
+________________________________________
+Concept objet
+
+propriete 
+variable

@@ -1,4 +1,4 @@
-/* document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     const rouge = "rouge",
         vert = "vert",
@@ -11,11 +11,11 @@
         saisie = prompt("Veuillez saisir une couleur (rouge, vert ou bleu).")
         switch (saisie) {
             case rouge:
-                p0.innerText = "Vous avez choisi la couleur : " + saisie, p0.style.cssText = 'padding: 2rem; color: rgb(200,0,0)'
+                p0.innerText = "Vous avez choisi la couleur : " + saisie /* concatenation */,  p0.style.cssText = 'padding: 2rem; color: rgb(200,0,0)'
                 p1.innerText = 'Rouge se dit "red" en anglais', p1.style.cssText = 'color: rgb(200,0,0)'
                 break
             case vert:
-                p0.innerText = "Vous avez choisi la couleur : " + saisie, p0.style.cssText = 'padding: 2rem; color: rgb(0,200,0)'
+                p0.innerText = `Vous avez choisi la couleur : ${saisie}`/* concatenation */, p0.style.cssText = 'padding: 2rem; color: rgb(0,200,0)'
                 p1.innerText = 'Vert se dit "green" en anglais', p1.style.cssText = 'color: rgb(0,200,0)'
                 break
             case bleu:
@@ -29,12 +29,12 @@
         }
     }
     btn.addEventListener("click", couleur, false)
-}) */
+})
 
-
+/* 
 //* Correction
 document.addEventListener("DOMContentLoaded", () => {
 
     console.log("Load")
 
-})
+}) */
