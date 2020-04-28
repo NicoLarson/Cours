@@ -1,0 +1,10 @@
+Algorithme : SOMME
+ENTIERS : 
+    T[i],
+    i = 1,
+    x = 0
+
+DEBUT
+    x <- x + T[i]
+
+FIN

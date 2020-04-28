@@ -1,0 +1,12 @@
+Algorithme : Initialisation et Affichage
+VARIABLES:
+ENTIERS : 
+    T[2,3,4,5,6,7,8], 
+    i = 0
+DEBUT
+    TANT QUE i<=7
+        i <- i - 1
+        AFFICHER T[i]
+    FIN TANT QUE
+FIN
+

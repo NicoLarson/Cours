@@ -1,0 +1,23 @@
+Algorithme : CHOIX DES VALEURS SUPÉRIEURS À t.
+ENTIERS : 
+    T[10],
+    i = 0,
+    t,
+    x
+DEBUT
+    AFFICHER "Saisisez 10 valeurs : "
+    TANT QUE i < 10
+        SAISIR T[t]
+        i <- i + 1
+    FIN TANT QUE
+    AFFICHER "Saisisez une valeurs : "
+    SAISIR x
+    i = 0
+    TANT QUE i < 10 et T[t] < x
+        AFFICHER T[t]
+        i <- i + 1
+    FIN TANT QUE    
+FIN
+
+
+FAUX

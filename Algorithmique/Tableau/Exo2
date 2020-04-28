@@ -1,0 +1,17 @@
+Algorithme : CONTROLE DE SAISIE
+ENTIERS : 
+    T[20]
+    i = 0
+    t
+DEBUT
+    AFFICHER "Saisisez 20 valeurs positives : "
+    TANT QUE i < 20
+        SAISIR  t
+            SI t > 0
+                T[t]
+                i <- i + 1
+            SINON
+                AFFICHER "Saisisez des valeurs positives."
+            FIN SI
+    FIN TANT QUE
+FIN
