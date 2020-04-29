@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
         "Paris"
     )
     let maison3 = new Builder( //instance d'objet
-    "Rufus",
-    "Artacus",
-    "Grèce"
-)
+        "Rufus",
+        "Artacus",
+        "Grèce"
+    )
 
     console.log(`${maison0.nom} ${maison1.prenom}`)
     // ajouter tableau
