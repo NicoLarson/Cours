@@ -28,11 +28,7 @@ concaténation : ajouter à la suite
 let : variable
 const : inchangeable
 
-Methode : exemple 
-prompt
-querySelector 
-getElements 
-push
+Methode : exemple : prompt,querySelector,getElements,push
 
 NaN : Not a number
 
@@ -56,8 +52,8 @@ un element inline-block, inline, table ne peuvent pas avoir une width auto.
 
 objet:
 methode : est une fonction qui apartient a un objet
-fonction :
-paramettre :
+fonction : avec()
+paramettre : 
 propriété : 
 
 concaténation != ajouter
