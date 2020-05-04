@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", () => {
     console.log("Loaded")
 
     let target = document.querySelector('main > ul')

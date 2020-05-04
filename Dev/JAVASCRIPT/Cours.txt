@@ -66,3 +66,25 @@ Concept objet
 
 propriete 
 variable
+
+________________________________________
+Formulaire
+
+form
+propriete de form
+get : prendre (recherche)
+post : envoyer ()
+
+input
+propriete input
+type :
+name :
+placeholder :
+requiered : champ obligatoire
+aria-requiered : pour les noms voyant (indique au non voyant que le champs est obligatoire)
+auto-focus : indique le premier champ à remplir
+ne jamais mettre l'attribue value
+            <button type="submit">Send</button>
+button : eviter d'utiliser cette élèment pour un submit
+
+document.getElementsByName("")[0,1,2,3]
