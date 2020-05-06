@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ]
 
     //ajouter les jours
-    /*
+    
     console.table(month)
     let mois = new Date()
     mois = month[mois.getMonth()]
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     target.innerText = `Bonjour la date du jour 
                         ${jour}
                         ${mois} : ${time.getFullYear()}`
-*/
+
 
     let cOut = document.querySelector('p');
     let el = document.querySelector('h1')

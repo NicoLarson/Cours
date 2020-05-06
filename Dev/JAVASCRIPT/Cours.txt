@@ -88,3 +88,10 @@ ne jamais mettre l'attribue value
 button : eviter d'utiliser cette élèment pour un submit
 
 document.getElementsByName("")[0,1,2,3]
+
+
+________________________________________
+CSS
+Schéma 
+Sélécteur | Propriété | Valeur
+* : sélécteur universel
