@@ -7,14 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const elForm = document.querySelectorAll("section")[1]
     const elV = document.querySelector("section h2")
 
-
-
-
     elShow.addEventListener("click", ()=>{
         elForm.classList.toggle("form")
         elV.classList.toggle("checked")
     })
-
 
     let warning = document.querySelector("section:nth-child(2) p")
 
@@ -25,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btn.addEventListener("click", (event) => {
         event.preventDefault()
-        if (login.value == User.username && password.value == User.password) {
+        if (login.value == User.username && parseInt(password.value) === User.password) {
             warning.style.display = "block"
             warning.classList.add("success")
             warning.innerText = `${User.username} Vous êtes connecté`
@@ -33,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             warning.style.display = "block"
             warning.classList.add("warning")
         }
-        event.stopPropagation
+        event.stopPropagation()
 
         /*
                 let log = ["Riri", "Fifi", "Loulu"]

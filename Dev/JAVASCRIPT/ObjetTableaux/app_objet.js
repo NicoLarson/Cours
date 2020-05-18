@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+console.log("load")
+
+})
     let target = document.querySelector('main > ul')
     let user = ({})
     let Produits = { //objet
@@ -32,4 +35,3 @@ document.addEventListener("DOMContentLoaded", () => {
     newProduit.printOut()
 
 
-})
