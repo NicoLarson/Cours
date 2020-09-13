@@ -25,7 +25,7 @@ let machineaLaver = ({
 
 let machine1 = Object.create(machineaLaver);
 
-machine1.constructor('Samsung', '900 euro', '150KW', '455236452', './images/photo1.jpg');
+machine1.constructor('Samsung', '900 euro', '150KW', '455236452', './assets/photo1.jpeg');
 
 machine1.affichage();
 console.log(machine1);
