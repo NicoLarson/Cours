@@ -1,17 +1,43 @@
-document.aaddEventlistener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded", ()=>{
 
-let target = document.querySelecor("ul")
-let machineALaver = ({
-	constructor(marque,prix,consommation, matricule, modele){
-	this.marque = marque
-	this.prix = prix
-	this.consommation = consommation
-	this.matricule = matricule
-	this.modele = model
-	},
-	
-	affichage(){
-		target.innerHTML += `<li>Marque}
+let target = document.querySelector('ul');
+
+let machineaLaver = ({
+
+    constructor(marque, prix, consommation,matricule, modele){
+        this.marque = marque;
+        this.prix = prix;
+        this.consommation = consommation;
+        this.matricule = matricule;
+        this.modele = modele
+    }, 
+
+    affichage(){
+        
+        target.innerHTML += `<li>Marque: ${this.marque}</li>
+                             <li>Prix:  ${this.prix}</li>
+                             <li>Consommation:  ${this.consommation}</li>
+                             <li>Matricule:  ${this.matricule}</li>
+                             <li><img src="${this.modele}"</li>`
+    }
+    
 })
+
+let machine1 = Object.create(machineaLaver);
+
+machine1.constructor('Samsung', '900 euro', '150KW', '455236452', './images/photo1.jpg');
+
+machine1.affichage();
+console.log(machine1);
+                          
+  let btn = document.querySelector('.btn');
+  
+  let main = document.querySelector('main')
+                           
+  
+  btn.addEventListener('click', (e)=>{
+              main.classList.toggle('access');
+              e.stopPropagation()
+  })
 
 })
