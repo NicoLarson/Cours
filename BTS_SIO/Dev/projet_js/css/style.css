@@ -1,0 +1,28 @@
+/* Thème */
+*{
+    /* For FF and non-webkit browsers */
+    scrollbar-width: thin;
+scrollbar-color: #000 #FFF;
+}
+*::-webkit-scrollbar {
+    width: 2px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid slategrey;
+}
+
+:root{
+    --color-bg-default: #fafafa;
+    --color-bg-primary: rgba(0,0,200,1)
+}
+
+header > h1{
+    text-align: center;
+    line-height: 4.5rem;
+    background-color: var(--color-bg-primary);
+    color: var(--color-bg-default);
+}
+main h2{
+    text-align: center;
+}
