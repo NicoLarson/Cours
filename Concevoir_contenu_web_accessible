@@ -1,0 +1,34 @@
+Concevoir un contenu web accessible
+
+Design inclusif
+Fonctionnalités de personnalisation
+Technologie d'assistance
+Saisie et affichage alternative
+
+WCAG => Règles pour l'accessibilité des comptenus web (Web content Accessibility Guidelines)
+
+4 principes de l'accessibilité
+	- Perceptible
+	- Utilisable
+	- Compréhensible
+	- Robuste
+Règles de succèes 
+https://user.oc-static.com/upload/2020/06/26/15931736682768_0777_Graphic-Design_TRAD_1.3.1.png
+
+I.Crée du contenu perceptible
+	Contenu non textuel
+	Alternatives aux médias temporels => sous-titre, transcriptions.
+
+Contenu adaptable
+Distinguable
+
+II.Interface utilisable
+Accessibilité au clavier
+Accorder un délai suffisant aux utilisateurs
+Ne pas provoquer de crises => ne rien faire clignoter à une fréquence de plus de 3 flashs par secondes.
+Prendre en charge la navigabilité
+
+III.Rendre le site compréhensible
+Lisibilité => langue, paragraphe...
+Prévisibilité =>
+Utiliser de l'aide pour les formulaires => image, illustration...

@@ -1,0 +1,32 @@
+1 -vérifier la version npm
+2 -puis npm init
+3 -npm install --save-dev babel-cli babel-preset-env
+
+Ajouter dans le jSon la ligne de code qui suit : 
+"build": "babel --no-babelrc src -w -d js --preset=env"
+
+Puis cibler le dossier "SRC" et commande :npm run build
+
+Nota bene : pour installer le CLI faire d'abord npm init pour le package.json
+
+//objet et constructeur
+
+	let lang = {
+
+			init: function(nom,date){ //constructeur
+				this.nom = nom;
+				this.date = date;
+			},
+			printOut(){//getter
+				const desc = this.nom+' '+this.date;
+				return desc;
+			},
+			
+			el:document.createElement("ul")
+			
+			}
+    
+    let lang_1 = Object.create(lang)
+    lang_1.init("HTML", 1990)
+    let affiche = lang_1.printOut()
+    console.log(affiche)
