@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schema adresse</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Schema sémantique</h1>
+    </header>
+    <main>
+        <address itemscope itemtype="https://schema.org/PostalAddress" itemref="desc title image">
+            <ul>
+                <li itemprop="streetAddress">Adresse : Bd de Charonne</li>
+                <li itemprop="addressLocality">Ville : Paris</li>
+                <li itemprop="postalCode"><abbr title="code postal">CP</abbr> : 75020</li>
+                <li itemprop="addressCountry">Pays : France</li>
+                <li itemprop="telephone">Tél : xxxxxx</li>
+                <li itemprop="email">Contact : Nico@gmail.com</li>
+            </ul>
+        </address>
+        <section>
+            <h2 id="title" itemprop="name">Description</h2>
+            <p id="desc" itemprop="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ab
+                a amet
+                obcaecati saepe eveniet
+                pariatur.</p>
+            <div class="picture" role="img" id="image">
+                <img src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" alt="html5"
+                    itemprop="image">
+            </div>
+        </section>
+    </main>
+    <footer itemscope itemtype="https://schema.org/WebPage">
+        <p itemprop="copyrightYear">&copy; : 2020 MIT</p>
+    </footer>
+</body>
+
+</html>
