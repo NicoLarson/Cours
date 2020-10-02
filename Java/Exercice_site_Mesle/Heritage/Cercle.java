@@ -1,34 +1,35 @@
 package Heritage;
 
-public class Cercle
+public class Cercle extends Point
 {
-	private class Cercle extends Point
-	{
-	private double r = 0;
-	public Cercle(double x, double y, double r)
-	{
-		super(x,y);
-		setR(r);	
-	}	
+		private double rayon = 0;
 	
-	public Cercle(Point center,double r)
-	{
-		this(center.getx(),center.gety(), r);
-	}
-	public double getR()
-	{
-		return r;
-	}
-	public void setR(double r)
-	{
-		if(r > 0)
-			this.r=r;
-	}
+		public Cercle(double abs, double ord, double rayon)
+		{
+			super(abs, ord);
+			setRayon(rayon);
+		}
+	
+		public Cercle(Point centre, double rayon)
+		{
+			this(centre.getAbs(), centre.getOrd(), rayon);
+		}
+	
+		public double getRayon()
+		{
+			return rayon;
+		}
+	
+		public void setRayon(double rayon)
+		{
+			if (rayon > 0)
+				this.rayon = rayon;
+		}
 	
 	public static void main(String[] args)
 	{
 		Cercle cercle = new Cercle (1,2,0);
-		System.out.println(cercle.getX()+"/"+cercle.getY()+"/"+cercle.getR);
+		System.out.println(cercle.getX()+"/"+cercle.getY()+"/"+cercle.getR());
 	}
-	}}
+}
 
