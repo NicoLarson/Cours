@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+header {
+  background-color: #222;
+}
+header h1 {
+  color: #fafafa;
+  padding: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+}
+main {
+  padding: 2rem;
+  height: 100%;
+}
+main section h2 {
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
+}
+main section p {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #222;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+}
+main ul {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 2rem;
+}
+main ul img{
+    height: 8rem;
+}
+footer {
+  background-color: #222;
+}
+footer p {
+  color: #fafafa;
+  padding: 1.2rem;
+}

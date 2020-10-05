@@ -4,6 +4,9 @@ Site scheme.org
 itemscop itemtype=""
 itemprop=""
 
+itemref=""
+## JSON LD
+
 ## Nicolas Yang
 ### Person
 name
@@ -53,3 +56,4 @@ url
 ## Footer
 ### Webpage
 url
+
