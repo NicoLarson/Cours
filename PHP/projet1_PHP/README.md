@@ -215,6 +215,7 @@ while ($index < count($progs))
 ### foreach()
 
 ```php
+
 foreach ($produit as $key => $valeur) 
 {
     echo ($key . ": " . $valeur . "<br>");
