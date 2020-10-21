@@ -1,0 +1,73 @@
+# Cadrer un projet avec le cahier des charges.
+
+1: Maitrise d'Ouvrage
+
+2: Maitrise d'Oeuvre
+
+## I - Projet séquentiel: Toutes les phases sont faites les unes après les autres.
+- Découpage du projet
+- Conception de l'architecture : langages, framework, base de donnée...
+- Code
+- Recette : test des fonctionnalités :	
+	- Manuel
+	- Automatisé
+Désavantage : Pas de possibilité de changement
+
+### 1. Définir le projet
+Document simple : Phrases courtes et simples.
+#### Spécifications fonctionnelles
+- Fonctionnalités du projet
+- Document de validation
+#### Acteurs impliqués
+- MOE
+- MOA
+- Acteur spécifications fonctionnelles
+- Scénario utilisateur
+- Aperçus sous forme de diagramme des différents interactions
+
+### 2. Conception architecture
+Spécification technique : langages, framework, base de donnée...
+- Architecture global du projet : framework, info global
+- Batchs et interfaces
+- Organisation des données
+- Le code : languages, guides de style
+- Plateforme matériel : hardware...
+### 3. Code / 4. Test
+Colaboration avec git
+Codage en local
+Envoi le code en serveur de pré-prod pour les tests
+- Test unitaire
+- Test intégration
+- Test manuel
+    - Envoi au serveur de production
+    - Envoi phase de recette
+## II - Projet agiles:
+- Adaptatif:
+	- Incremental
+	- Itérative
+- Collaboration
+- Ceremonial minimal	
+### 1.Les valeurs
+- Les individus et leurs interactions sont plsu importantes que les processus et les outils
+- Un logicielle qui fonctionne est mieux qu'une documentation exhaustive
+- Collaborer avec le clients est préférables à la négociation contractuelle
+- S'adapter au changement est mieux que de suivre un plan
+### 2. Principes
+- Satisfaction du client
+- Adaptation
+- Motivation
+- Simplicité
+- Communication
+- Attention continue
+### 3.Scrum
+## Sprint
+Diviser les actions en story
+#### Model 
+##### Story
+En tant que: utilisateur
+Je veux: action
+Pour: resultat
+Carte 
+Conversation
+Confirmation
+
