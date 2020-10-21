@@ -1,3 +1,12 @@
+:root {
+  --color-btn-bg-start: #fafafa;
+  --color-btn-bg-end: #222;
+  --color-btn-font-start: #222;
+  --color-btn-font-end: #fafafa;
+  --btn-border-start: 0.4rem solid #222;
+  --btn-border-end: #444;
+}
+
 main {
   height: 100vh;
 }
@@ -25,11 +34,12 @@ main section h2 {
   font-size: 3rem;
   padding: 2rem;
 }
-main section ul li {
-  background-color: #444;
-  color: #fafafa;
+main section:nth-child(1) ul li {
+  background-color: var(--color-btn-bg-start);
+  color: var(--color-btn-font-start);
   text-align: center;
   max-width: 40%;
+  border: var(--btn-border-start);
   border-radius: 10rem;
   margin: 2rem auto;
   padding: 2rem;
@@ -40,9 +50,35 @@ main section ul li {
 /* ANIMATIONS */
 main section ul li:nth-child(1) {
   transform: scale(1);
-  transition-property: transform;
-  transition-duration: 100ms;
+  transition: transform 0.8s 0.4s, background-color 0.4s 0.2s;
 }
 main section ul li:nth-child(1):hover {
   transform: scale(1.15);
+  background-color: var(--color-btn-bg-end);
+  color: var(--color-btn-font-end);
+}
+main section ul li:nth-child(2) input {
+  border: 0.4rem solid blue;
+  border-radius: 10rem;
+  padding: 0.4rem 1rem;
+  transition: 1s;
+}
+main section ul li:nth-child(2) input:focus {
+  border: 0.4rem solid violet;
+}
+main section ul li:nth-child(2) input:not(:focus):invalid {
+  background: red;
+}
+main section ul li:nth-child(2) input:focus:valid {
+  border: 0.4rem solid green;
+}
+
+main section ul li:nth-child(3) div {
+  height: 4rem;
+  width: 4rem;
+  background-color: blue;
+  transition: 0.4s;
+}
+main section ul li:nth-child(3):hover div {
+  transform: rotate(90deg);
 }
