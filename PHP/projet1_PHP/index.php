@@ -9,7 +9,7 @@ include_once("./src/main_header.inc.php");
     </header>
     <!-- main -->
     <?php
-    include_once("./src/cree_fonction.inc.php");
+    include_once("./src/get_choix.inc.php");
     ?>
     <!-- end -->
     <footer>

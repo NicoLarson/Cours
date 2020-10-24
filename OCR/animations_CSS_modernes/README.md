@@ -161,6 +161,32 @@ Le timing est linéaire
 * cubic-bezier(): si les timings par défaut ne correspond pas à l'animation voulu. Et permet d'ajuster des effets de timing.
 
 
+## Optimiser les performances du navigateur pour les animations CSS
+
+Frames Per Second (FPS): Images par seconde.
+> Une image/0,04 secondes = 25 FPS
+* 60 FPS idéal
+
+### Comment le navigateur passe des codes HTML et CSS à une page web?
+
+1. Style: le navigateur recois le code HTML et interprète le DOM.
+2. Layout(mise en page): Détermine la taille des éléments et comment les placer.
+3. Paint(peinture): Transforme les éléments en pixels.
+4. Composition: Combine toutes les étapes. 
+Chaque étape nécessite un temps de calcul.
+Jank: Distinction des images une par une. C'est moche.
+
+## Crée des animations fluides avec transform
+### Déplacer
+translate(x,y)
+* Faire pivoter
+* Déformer
+### Changer la taille
+scale(x,y)
+
+
+
+
 
 
 
