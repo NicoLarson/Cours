@@ -1,0 +1,36 @@
+:root {
+  --color-header-bg: #222;
+  --color-header-font: #fafafa;
+
+  --color-footer-bg: #222;
+  --color-footer-font: #fafafa;
+}
+header h1 {
+  padding: 4rem;
+  font-size: 8rem;
+  text-align: center;
+  background-color: var(--color-header-bg);
+  color: var(--color-header-font);
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: #222 solid .2rem;
+}
+header nav ul li{
+  cursor: pointer;
+  padding: 1rem;
+}
+header nav ul li:nth-child(2n+1){
+  background-color: rgba(153, 153, 153, 0.253);
+}
+main {
+  padding: 4rem;
+}
+footer {
+  padding: 2rem;
+  background-color: var(--color-footer-bg);
+  color: var(--color-footer-font);
+}

@@ -11,9 +11,6 @@ input {
   --btn-border-end: #444;
 }
 
-main {
-  height: 100vh;
-}
 header,
 footer {
   background-color: #222;
@@ -38,14 +35,17 @@ main section h2 {
   font-size: 3rem;
   padding: 2rem;
 }
+main section ul {
+  display: flex;
+  flex-wrap: wrap;
+}
 main section ul li {
   background-color: var(--color-btn-bg-start);
   color: var(--color-btn-font-start);
   text-align: center;
   max-width: 40%;
   border: var(--btn-border-start);
-  border-radius: 10rem;
-  margin: 2rem auto;
+  margin: 2rem;
   padding: 2rem;
   font-size: 2rem;
   font-weight: bolder;
@@ -53,12 +53,16 @@ main section ul li {
 /* ANIMATIONS */
 ul li:nth-child(1) {
   transform: scale(1);
-  transition: transform 0.8s 0.4s, background-color 0.4s 0.2s;
+  transition: transform 0.2s 0.4s, background-color 0.4s 0.2s;
 }
 ul li:nth-child(1):hover {
   transform: scale(1.15);
   background-color: var(--color-btn-bg-end);
   color: var(--color-btn-font-end);
+}
+ul li:nth-child(2) {
+  display: flex;
+  align-items: center;
 }
 ul li:nth-child(2) input {
   border: 0.4rem solid blue;
@@ -110,4 +114,71 @@ ul li:nth-child(5) div {
 ul li:nth-child(5) div span {
   transform: translateY(250%);
   transition: transform 280ms ease-out 50ms;
+  overflow: hidden;
+}
+
+ul li:nth-child(6) div:hover {
+  transform: rotate(200deg);
+}
+ul li:nth-child(6) div {
+  transition: transform 0.4s ease-in-out;
+}
+ul li:nth-child(7) div:hover {
+  transform: scale(2) rotate(360deg);
+}
+ul li:nth-child(7) div {
+  transform: scale(0.4);
+  transition: transform 0.4s ease-in-out;
+}
+ul li:nth-child(8) div:hover {
+  transform: skew(-20deg, -20deg);
+}
+ul li:nth-child(8) div {
+  transition: transform 0.4s ease-in-out;
+}
+ul li:nth-child(9) div:hover {
+  transform: perspective(2.4rem) rotateX(20deg);
+}
+ul li:nth-child(9) div {
+  transition: transform 0.4s ease-in-out;
+}
+
+/* progress-bar */
+
+ul li:nth-child(10) div {
+  height: 2rem;
+  width: 20rem;
+  padding: 0.1rem;
+  background-color: #fafafa;
+  border: solid 0.1rem #222;
+}
+ul li:nth-child(10) div div {
+  max-width: 100%;
+  max-height: 100%;
+  border: none;
+  background-color: #2ecc71;
+  transform-origin: right;
+  transform: scaleX(0.1);
+  transition: all 0.4s ease-in-out;
+}
+ul li:nth-child(10) div:nth-child(2) div {
+  transform-origin: left;
+}
+ul li:nth-child(10) div div:active {
+  transform: scaleX(1);
+}
+ul li:nth-child(10) div:nth-child(2) div:hover {
+  transform: scaleX(1);
+}
+ul li:nth-child(11) input {
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: #fafafa;
+  font-weight: bolder;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  transition: all 0.4s;
+}
+ul li:nth-child(11) input:hover {
+  background-color: #27ae60;
 }

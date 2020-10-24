@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+body{
+    font: 16px 'Open Sans',sans-serif;
+    margin: 0;
+}
+h1,
+h2,
+h3,p,ul,ol,th{
+    margin: 0;
+    list-style: none;
+    padding:0;
+    font-weight: 400;
+}
+*{
+    box-sizing: border-box
+}
+/*thème*/
+header{
+    background: #222;
+}
+header *{
+    text-align: center;
+    color: #fafafa;
+    line-height: 60px;
+}
+/*arrow*/
+i{
+    border: solid #fafafa;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding:3px;
+    vertical-align: middle;
+}
+header .arrow-left{
+    transform: rotate(-45deg);/*45deg en bas*/
+}
+.section,footer{
+    width: 950px;
+    margin: 50px auto 0;
+    padding: 5px;
+}
+footer{
+    margin-top:0;
+}
+footer *{
+    text-align: center;
+    color: #999;
+}
+table{
+    width: 100%;
+    line-height: 45px;
+    border-spacing: 0;
+    background: #fafafa;
+    border: solid 1px transparent;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+table caption{
+    font-size: 1.5rem;
+}
+table,tr,th,td{
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+}
+table th,td{
+    padding: 5px;
+}
+table thead,table tfoot{
+    background-color: rgb(9, 89, 154);
+    color: #fafafa;
+}
+table th:nth-of-type(1){
+    width: 20%;
+}
+table th:nth-of-type(1)::before{
+    content: '\f17b';
+    font-family: 'Font Awesome 5 Brands';
+    margin-right: 5px;
+}
+table caption::before{
+    
+    content: '\f1cb';
+    font-family: 'Font Awesome 5 Brands';
+    margin-right: 5px;
+}
+tbody tr:nth-child(2n+1){
+    background-color: #dfe6e9;
+}
+tbody tr{
+    transition: all 300ms ease-in-out;
+}
+tbody tr:hover{
+    background-color: rgb(9, 89, 154);
+    color:#fafafa;
+    cursor: pointer;
+}
+
+
+
+/*responsive*/
+@media screen and (max-width: 1024px){
+    body{
+        margin: 1%;
+    }
+    header h1{
+        font-size: 4.5vw;
+    }
+    .section{
+        width: auto;
+        padding: 0;
+    }
+}

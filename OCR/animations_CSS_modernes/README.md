@@ -103,24 +103,13 @@ main section ul li:nth-child(1):hover {
   color: var(--color-btn-font-end);
 }
 ```
+
 ### Séparer les propriétés
-```css
-main section ul li:nth-child(1) {
-  transform: scale(1);
-  transition: transform .4s, background-color 1s;
-}
-main section ul li:nth-child(1):hover {
-  transform: scale(1.15);
-  background-color: var(--color-btn-bg-end);
-  color: var(--color-btn-font-end);
-}
-```
-### Retarder le début d'une transition
+
 ```css
 main section ul li:nth-child(1) {
   transform: scale(1);
   transition: transform 0.4s, background-color 1s;
-  transition-delay:0, 0.2s;
 }
 main section ul li:nth-child(1):hover {
   transform: scale(1.15);
@@ -128,7 +117,24 @@ main section ul li:nth-child(1):hover {
   color: var(--color-btn-font-end);
 }
 ```
+
+### Retarder le début d'une transition
+
+```css
+main section ul li:nth-child(1) {
+  transform: scale(1);
+  transition: transform 0.4s, background-color 1s;
+  transition-delay: 0, 0.2s;
+}
+main section ul li:nth-child(1):hover {
+  transform: scale(1.15);
+  background-color: var(--color-btn-bg-end);
+  color: var(--color-btn-font-end);
+}
+```
+
 ou
+
 ```css
 main section ul li:nth-child(1) {
   transform: scale(1);
@@ -140,53 +146,79 @@ main section ul li:nth-child(1):hover {
   color: var(--color-btn-font-end);
 }
 ```
-_ _ _ 
+
+---
+
 ## Créer des animations plus naturelles avec les fonctions timing
+
 Tout objet en mouvement doit forcément accélérer et avant de pouvoir s'arrêter, il doit décélérer.
+
 ### Gérer l'accélération et la décélération des animations
-ease-in 
+
+ease-in
 ease-out
+
 #### Fonctions des timing
+
 ```css
 transition-timing-function
 ```
+
 ### Les principales fonctions de timing par défaut
+
 Le timing est linéaire
+
 #### Fonction de temporisation
-* ease-in
-* ease-out
-* ease-in-out
-* linear
 
-* cubic-bezier(): si les timings par défaut ne correspond pas à l'animation voulu. Et permet d'ajuster des effets de timing.
+- ease-in
+- ease-out
+- ease-in-out
+- linear
 
+- cubic-bezier(): si les timings par défaut ne correspond pas à l'animation voulu. Et permet d'ajuster des effets de timing.
 
 ## Optimiser les performances du navigateur pour les animations CSS
 
 Frames Per Second (FPS): Images par seconde.
+
 > Une image/0,04 secondes = 25 FPS
-* 60 FPS idéal
+
+- 60 FPS idéal
 
 ### Comment le navigateur passe des codes HTML et CSS à une page web?
 
 1. Style: le navigateur recois le code HTML et interprète le DOM.
 2. Layout(mise en page): Détermine la taille des éléments et comment les placer.
 3. Paint(peinture): Transforme les éléments en pixels.
-4. Composition: Combine toutes les étapes. 
-Chaque étape nécessite un temps de calcul.
-Jank: Distinction des images une par une. C'est moche.
+4. Composition: Combine toutes les étapes.
+   Chaque étape nécessite un temps de calcul.
+   Jank: Distinction des images une par une. C'est moche.
 
 ## Crée des animations fluides avec transform
 ### Déplacer
 translate(x,y)
-* Faire pivoter
-* Déformer
+### Faire pivoter
+rotate(n deg)
 ### Changer la taille
 scale(x,y)
+### Déformer
+skew(x deg,y deg)
+### 3d
+perspective()
+translate3d()
+scale3d()
+rotateZ()
 
+## transform-origin pour modifier le point d'ancrage d'un élément
+transform-origin()
+### Mots clés
+* left
+* right
+* top
+* bottom
+* center
 
+## Analyser la performance des animations avec DevTools du navigateur
+ctrl + shift + i -> onglet performance
 
-
-
-
-
+## Animer les couleur avec opacity
