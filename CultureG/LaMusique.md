@@ -1,3 +1,25 @@
+Question à répondre culture G?
+
+Qu'est ce qui influence nos gout musicaux?
+Peut on se passer de musique?
+La musique nous elloigne elle des affaires sérieuses?
+
+Qui est Jimmy Endrix
+Qui est Bob Dylan
+Qui est Bob Marley
+
+Chercher des elements sur la marseillaise.
+
+Les films:
+- Black Swan
+- The wall - musique pink floid
+- Billy Elliot
+
+Qui est Billy Holiday
+Qui est Louis Amstrong
+
+
+
 La usique nous acompagne tous le temps
 Il existe des tenssion entre les aspirations individuelles pratiqué par la musique et les aspiration colective qui conduise a valoriser et a diffuser certain musicien et certainne oeuvre.
 Si on place la musique avant toute chose est-ce qu'on esclut tout autre forme d'art?
