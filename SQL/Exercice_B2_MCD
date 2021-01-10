@@ -1,0 +1,23 @@
+# Livraison
+
+FOURNISSEUR(__numfou__, nomfou)
+PRODUIT(__numprod__, nomprod)
+PROPOSER(__#numfou, #numprod__, prix)
+LIVRAISON(__-numli__, dateli , #numfou)
+COMPORTER(__#-numli, #numprod__, quantité)
+
+# Secretariat Pédagogique
+
+DATE(__dateinscription__)
+ETUDIANT(__numetud__, nometud, prenometud, adr1etud, adr2etud, cpetud, villeetud)
+FORMATION(__numform__, nomform)
+SEMESTRE(__numsem__, nomsem)
+INSCRIRE(__#dateinscription, #numetud, #numform, #numsem__)
+MODULE(__nummod__, nommod, #numsemi, #numform)
+
+# Arbre généalogique
+
+DATE(__datemariage__)
+EPOUSER(__#datemariage, #numpers__, datedivorce)
+PERSONNE(__numpers__, nompers, prenompers, datenaiss, datedeces)
+PERE(__#num)
