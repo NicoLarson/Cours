@@ -8,7 +8,6 @@ include_once('./src/header.inc.php');
     <div class="form" role="region">
         <fieldset>
             <legend>Recherche</legend>
-
             <form action="" method="get">
                 <label for="titre">Votre recherche</label>
                 <input type="text" name="recherche" id="recherche" placeholder="Votre recherche" autofocus>
