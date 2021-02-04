@@ -1,0 +1,159 @@
+/* theme */
+header {
+  background: #2980b9;
+}
+header h1 {
+  text-align: center;
+  line-height: 6.5rem;
+  color: #fff;
+}
+p,
+ul {
+  max-width: 80rem;
+  line-height: 2.6rem;
+  margin: 2rem auto 0;
+  background: #fafafa;
+  border: solid 0.1rem #ccc;
+  padding: 1rem;
+}
+ul li:nth-child(2n + 1) {
+  background: #222;
+  color: #fff;
+  padding: 0.5rem;
+}
+header h1::before {
+  content: url(https://cdn.iconscout.com/icon/free/png-256/php-76-555548.png);
+  vertical-align: middle;
+  max-width: 50%;
+}
+section {
+  border: solid 0.1rem transparent;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+}
+section,
+footer {
+  max-width: 80rem;
+  margin: 2rem auto;
+  background: #fafafa;
+}
+section > h2 {
+  text-align: center;
+  background: #34495e;
+  color: #fff;
+  line-height: 4.5rem;
+}
+section > p {
+  border: 0;
+  padding: 1rem;
+  margin: 0;
+}
+section address {
+  padding: 0 1rem;
+}
+footer p {
+  border: 0;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+p a {
+  display: inline-block;
+  line-height: 3.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  max-width: 20rem;
+  padding: 0.9rem;
+  background-color: #2980b9;
+  margin-left: 0.8rem;
+  color: #fff;
+}
+p a:last-child {
+  background-color: #e74c3c;
+}
+.theme-secret {
+  padding: 1rem;
+}
+section figure,
+.theme-secret {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+section figure img,
+.theme-secret img {
+  display: block;
+  width: 100%;
+}
+section figure figcaption *,
+.theme-secret figcaption * {
+  text-align: center;
+}
+form,
+.theme-response {
+  max-width: 70rem;
+  margin: 1rem auto 0;
+  padding: 1rem;
+}
+form input {
+  display: block;
+  width: 100%;
+  border: solid 0.1rem transparent;
+  line-height: 2.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  font-size: inherit;
+}
+form input[type="password"],
+form input[type="text"] {
+  border-bottom-color: #ccc;
+  border-bottom-width: 0.1rem;
+  outline: none;
+  transition-duration: 0.5s;
+}
+form input[placeholder] {
+  color: #222;
+}
+form input[type="password"]:focus,
+form input[type="text"]:focus {
+  box-shadow: 0 0 1rem #e74c3c;
+}
+form input[type="submit"] {
+  background-color: #6ab04c;
+  border-radius: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+.theme-response {
+  box-shadow: 0 0 0;
+  text-align: center;
+}
+.theme-response .success::before,
+.theme-response .success .error::before {
+  content: url("../asset/good.png");
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+.theme-response .error::before {
+  content: url("../asset/nogood.png");
+}
+form input[type="radio"] {
+  display: inline-block;
+  width: auto;
+}
+form select {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  border: solid 0.1rem #ccc;
+  padding: 1rem;
+}
+form select option {
+  font-size: 1.7rem;
+}
+section .align-text {
+  text-align: left;
+}
+nav .navigation li:nth-child(2n + 1) a {
+  color: #fff;
+}

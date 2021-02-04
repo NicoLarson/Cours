@@ -1,0 +1,24 @@
+{
+    "short_name": "Language",
+    "name": "classement des langages",
+    "icons": [
+      {
+        "src": "image/HTML_Logo.png",
+        "type": "image/png"
+        
+      },
+      {
+        "src": "image/HTML_Logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "developer": {
+      "name": "web developer",
+      "url": "http://ma-pageaccueil-ici.fr"
+    },
+   
+    "display": "standalone",
+    "theme_color": "#3367D6"
+  }
+  

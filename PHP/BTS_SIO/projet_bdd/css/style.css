@@ -1,0 +1,86 @@
+/* reset */
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 1.6rem sans-serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+ul,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* theme */
+header {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-color: #3498db;
+  margin-bottom: 6rem;
+}
+header h1 {
+  font-size: 8rem;
+  -webkit-text-stroke: 0.2rem #222; /* Contour des lettres */
+  font: 900 8vmin/12vh sans-serif;
+  color: #fff;
+}
+main h2 {
+  line-height: 6rem;
+  text-align: center;
+  font-weight: 100;
+}
+main h2::before {
+  content: "\01F4BB"; /* Emojie */
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+main figure {
+  max-width: 50rem;
+  font-weight: 100;
+  margin: 0 auto 1rem;
+}
+
+main figure img {
+  display: inline-block;
+  max-width: 32rem;
+}
+figure figcaption ul {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(1, 1fr); /* Auto */
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+}
+figure figcaption ul li {
+  line-height: 4.5rem;
+  background-color: rgba(52, 152, 219, 1);
+  padding: 0.5rem;
+}
+figure figcaption ul li::before {
+  content: "\2713";
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+
+figure figcaption ul li:nth-child(2n + 1) {
+  background-color: rgba(52, 152, 219, 0.6);
+}
+figure figcaption ul li:last-child {
+  background-color: #fff;
+  text-align: center;
+}
+figure figcaption ul li:last-child::before {
+  content: "";
+}
+footer {
+  text-align: center;
+  margin: 0 0 1rem;
+}

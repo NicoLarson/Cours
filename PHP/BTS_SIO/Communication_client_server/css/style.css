@@ -1,0 +1,169 @@
+/* reset */
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 1.6rem sans-serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+ul,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* theme */
+.warning,
+.success {
+  margin: 2rem 0;
+  padding: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.warning {
+  background-color: #e74c3c;
+  color: #fafafa;
+}
+.success {
+  background-color: #2ecc71;
+  color: #fafafa;
+}
+header {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-color: #3498db;
+  margin-bottom: 6rem;
+}
+header h1 {
+  font-size: 5rem;
+  -webkit-text-stroke: 0.2rem #222;
+  font: 900 7vmin/15vh sans-serif;
+  color: #fff;
+}
+main h2 {
+  line-height: 6rem;
+  text-align: center;
+  font-weight: 100;
+}
+main h2::before {
+  content: "\01F4BB";
+  margin-left: 0.3rem;
+  vertical-align: top;
+}
+main .primary-list {
+  max-width: 50rem;
+  margin: 0 auto;
+  line-height: 2.5rem;
+  background-color: #fafafa;
+  border: solid 0.1rem transparent;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+main .primary-list li {
+  padding: 0.8rem;
+}
+main .primary-list li:nth-child(2n + 1) {
+  background-color: #3498db;
+  color: #fff;
+}
+main figure {
+  max-width: 50rem;
+  font-weight: 100;
+  margin: 0 auto 1rem;
+}
+main figure img {
+  display: inline-block;
+  max-width: 100%;
+}
+figure figcaption ul {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(1, 1fr); /*auto*/
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+}
+figure figcaption ul li {
+  line-height: 4.5rem;
+  background-color: rgba(52, 152, 219, 1);
+  padding: 0.5rem;
+}
+
+figure figcaption ul li::before {
+  content: "\2713";
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+figure figcaption ul li:nth-child(2n + 1) {
+  background-color: rgba(52, 152, 219, 0.6);
+}
+figure figcaption ul li:last-child {
+  background-color: #fff;
+  text-align: center;
+}
+figure figcaption ul li:last-child::before {
+  content: "";
+}
+
+section {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section p {
+  line-height: 2.6rem;
+}
+
+section p a {
+  display: inline-block;
+  width: 20rem;
+  line-height: 4.5rem;
+  text-align: center;
+  background-color: rgba(41, 128, 185);
+  color: #fff;
+}
+section form {
+  padding: 4rem;
+  background-color: #f1f1f1;
+  border: 0.1rem solid #585858;
+}
+section input,
+section label {
+  display: block;
+  width: 100%;
+  line-height: 4.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1.2rem;
+  outline: none;
+  font-size: 1.6rem;
+}
+
+section input[type="text"] {
+  border: solid 0.1rem transparent;
+  border-bottom-color: #585858;
+  transition-duration: 0.5s;
+}
+section input[type="text"]:focus {
+  box-shadow: 0 0 2rem rgba(150, 0, 0, 0.25);
+}
+
+section input[type="submit"] {
+  border: 0;
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin: 0 0 1rem;
+}

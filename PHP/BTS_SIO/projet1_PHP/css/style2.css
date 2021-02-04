@@ -1,0 +1,49 @@
+p {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+a {
+  text-decoration: none;
+  color: #fafafa;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+  transform: scale(1);
+  transition: 0.3s;
+}
+a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+a:active {
+  transform: scale(1);
+  box-shadow: none;
+}
+a:nth-child(1) {
+  background-color: #3498db;
+}
+a:nth-child(2) {
+  background-color: #fd79a8;
+}
+
+figure {
+  max-width: 80rem;
+  margin: 2rem auto 0;
+  background: #fafafa;
+  padding: 4rem;
+  border: solid 0.1rem #ccc;
+}
+figure img {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+}
+
+figure figcaption {
+  margin: 2rem 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}

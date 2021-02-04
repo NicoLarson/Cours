@@ -23,6 +23,7 @@
 - La poésie doit être imaginations et non fédérant.
 - La poésie doit faire tourner vers l'émotion.
 - Gagner en légèreté.
+L'auteur sortir du classissisme - avec la music
 
 > Michel Leiris, À cor et à cri
 - Les cris ne se font entendre par personne.
