@@ -1,0 +1,47 @@
+/* Reset */
+body{
+    margin:0;
+    font: 62.5% Sans-serif;
+}
+
+h1,h2,article,p,ul,li{
+    margin:0;
+    padding:0;
+    list-style: none
+}
+
+*{
+    box-sizing:borderbox;
+    outline:none;
+}
+
+/* Theme */
+h1{
+    padding:2rem;
+    text-align:center;
+    font-size:2.4rem;
+    background-color: #222;
+    color:#fafafa;
+}
+main form p{
+font-size:2rem;
+
+}
+main form{
+padding:2rem;
+}
+main form fieldset{
+    display:flex;
+    flex-direction:column;
+    padding:1rem;
+}
+main form fieldset legend{
+font-size:1.2rem;
+}
+main form label{
+    margin-top:1rem;
+}
+main form input[type="submit"]{
+    margin-top:2rem;
+}
+
