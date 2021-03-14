@@ -1,8 +1,12 @@
 <?php
 require('./controller/frontend.php');
 
-
-$insertUser = new Adduser;
-$insertUser->addUser();
-
-require('./view/frontend/signInView.php');
+if (isset($_GET['action'])) {
+    if ($_GET['action'] == "signIn") {
+        signIn();
+    } elseif ($_GET['action'] == "logIn") {
+        logIn();
+    }
+} else {
+    home();
+}

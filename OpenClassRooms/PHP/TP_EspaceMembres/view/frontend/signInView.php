@@ -5,7 +5,7 @@ ob_start();
 <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
 <?= $insertUser->addUser();  ?>
 <fieldset> 
-<legend>Inscription</legend>
+<legend><?= $title ?></legend>
        <label for="username">Nom utilisateur*</label>
         <input id="username" type="text" name="username">
         <label for="password">Mot de passe*</label>
@@ -17,7 +17,7 @@ ob_start();
         <input type="submit" value="S'inscrire">
 </fieldset>
     </form>
-<a href="./login.php">Se connecter</a>
+<a href="index.php?action=logIn">Se connecter</a>
 <?php
 $content = ob_get_clean();
 
