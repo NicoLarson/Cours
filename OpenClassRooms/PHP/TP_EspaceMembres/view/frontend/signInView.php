@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Inscription</title>
-<link rel="stylesheet" href="./css/style.css" media="all">
-</head>
-<body>
-   <header>
-       <h1>Inscription</h1>
-   </header>
-<main>
+<?php 
+$title = 'Inscription'; 
+ob_start();
+?>
 <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-<?php
-include_once('./src/signin.inc.php');
-?><fieldset> 
+<?= $insertUser->addUser();  ?>
+<fieldset> 
 <legend>Inscription</legend>
- 
        <label for="username">Nom utilisateur*</label>
         <input id="username" type="text" name="username">
         <label for="password">Mot de passe*</label>
@@ -28,6 +18,8 @@ include_once('./src/signin.inc.php');
 </fieldset>
     </form>
 <a href="./login.php">Se connecter</a>
-</main>
-</body>
-</html>
+<?php
+$content = ob_get_clean();
+
+require('template.php');
+?>
