@@ -18,7 +18,7 @@ class LogIn extends Manager
                 session_start();
                 $_SESSION['id'] = $data['id'];
                 $_SESSION['pseudo'] = $inputUsername;
-                return '<p>Vous êtes connecté !</p>';
+                return '<p>Connection réussi !</p>';
             } else {
                 return '<p>Mauvais identifiant ou mot de passe !</p>';
             }
@@ -28,7 +28,7 @@ class LogIn extends Manager
     function logIn()
     {
         if (isset($_POST['username'], $_POST['password'])) {
-            return  $this->checkLogIn($_POST['username'], $_POST['password']);
+            return  $this->checkLogIn(htmlspecialchars($_POST['username']), htmlspecialchars($_POST['password']));
         } else {
             return "<p>Veuillez saisir tous les champs.</p>";
         }
